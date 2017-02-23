@@ -1,0 +1,16 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="IgnoraParte4.xsl" type="text/xsl" ?> 
+<ROOT> 
+<SECRET> 
+SEZIONE RISERVATA: 
+   <TAG1>Testo Privato</TAG1> 
+<PUBLIC> 
+SEZIONE PUBBLICA 1
+  <TAG1>Testo Pubblico1</TAG1> 
+</PUBLIC> 
+</SECRET> 
+<PUBLIC> 
+SEZIONE PUBBLICA 
+  <TAG1>Testo Pubblico</TAG1> 
+</PUBLIC> 
+</ROOT> 

@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xs:element name="TAXONOMY" type="TAXONOMYType" />
+    <xs:complexType name="SHORT_NAMEType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="SOURCE" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="TOPICSType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="TOPIC" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LEARNING_OBJECTIVESType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="OBJECTIVE" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="UNITType">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element type="xs:string" name="UNIT_NAME" minOccurs="1" />
+            <xs:element type="SHORT_NAMEType" name="SHORT_NAME" minOccurs="1" />
+            <xs:element name="TIME" minOccurs="0">
+                <xs:simpleType>
+                    <xs:union>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:length value="0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer" />
+                        </xs:simpleType>
+                    </xs:union>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="TOPICSType" name="TOPICS" minOccurs="1" />
+            <xs:element type="LEARNING_OBJECTIVESType" name="LEARNING_OBJECTIVES" minOccurs="1" />
+        </xs:choice>
+        <xs:attribute name="ID" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z][A-Z]([0-9])+" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="TYPE" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="CORE|ELECTIVE" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="UNITSType">
+        <xs:sequence>
+            <xs:element type="UNITType" name="UNIT" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="AREAType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="AREA_NAME" />
+            <xs:element type="SHORT_NAMEType" name="SHORT_NAME" />
+            <xs:element type="xs:string" name="DESCRIPTION" />
+            <xs:element type="UNITSType" name="UNITS" />
+        </xs:sequence>
+        <xs:attribute name="ID">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]{2}" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="TAXONOMYType">
+        <xs:sequence>
+            <xs:element type="AREAType" name="AREA" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="ID" use="required" />
+    </xs:complexType>
+</xs:schema><?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xs:element name="TAXONOMY" type="TAXONOMYType" />
+    <xs:complexType name="SHORT_NAMEType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="SOURCE" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="TOPICSType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="TOPIC" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LEARNING_OBJECTIVESType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="OBJECTIVE" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="UNITType">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element type="xs:string" name="UNIT_NAME" minOccurs="1" />
+            <xs:element type="SHORT_NAMEType" name="SHORT_NAME" minOccurs="1" />
+            <xs:element name="TIME" minOccurs="0">
+                <xs:simpleType>
+                    <xs:union>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:length value="0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer" />
+                        </xs:simpleType>
+                    </xs:union>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="TOPICSType" name="TOPICS" minOccurs="1" />
+            <xs:element type="LEARNING_OBJECTIVESType" name="LEARNING_OBJECTIVES" minOccurs="1" />
+        </xs:choice>
+        <xs:attribute name="ID" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z][A-Z]([0-9])+" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="TYPE" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="CORE|ELECTIVE" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="UNITSType">
+        <xs:sequence>
+            <xs:element type="UNITType" name="UNIT" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="AREAType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="AREA_NAME" />
+            <xs:element type="SHORT_NAMEType" name="SHORT_NAME" />
+            <xs:element type="xs:string" name="DESCRIPTION" />
+            <xs:element type="UNITSType" name="UNITS" />
+        </xs:sequence>
+        <xs:attribute name="ID">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]{2}" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="TAXONOMYType">
+        <xs:sequence>
+            <xs:element type="AREAType" name="AREA" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="ID" use="required" />
+    </xs:complexType>
+</xs:schema>

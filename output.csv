@@ -1,0 +1,396 @@
+
+"Functions, relations, and sets","6", "CORE"
+
+
+"Basic logic","10", "CORE"
+
+
+"Proof techniques","12", "CORE"
+
+
+"Basics of counting","5", "CORE"
+
+
+"Graphs and trees","4", "CORE"
+
+
+"Discrete probability","6", "CORE"
+
+
+"Fundamental programming constructs","9", "CORE"
+
+
+"Algorithms and problem-solving","6", "CORE"
+
+
+"Fundamental data structures","14", "CORE"
+
+
+"Recursion","5", "CORE"
+
+
+"Event-driven programming","4", "CORE"
+
+
+"Basic algorithmic analysis","4", "CORE"
+
+
+"Algorithmic strategies","6", "CORE"
+
+
+"Fundamental computing algorithms","12", "CORE"
+
+
+"Distributed algorithms","3", "CORE"
+
+
+"Basic computability","6", "CORE"
+
+
+"The complexity classes P and NP","time not present", "ELECTIVE"
+
+
+"Automata theory","time not present", "ELECTIVE"
+
+
+"Advanced algorithmic analysis","time not present", "ELECTIVE"
+
+
+"Cryptographic algorithms","time not present", "ELECTIVE"
+
+
+"Geometric algorithms","time not present", "ELECTIVE"
+
+
+"Parallel algorithms","time not present", "ELECTIVE"
+
+
+"Digital logic and digital systems","6", "CORE"
+
+
+"Machine level representation of data","3", "CORE"
+
+
+"Assembly level machine organization","9", "CORE"
+
+
+"Memory system organization and architecture","5", "CORE"
+
+
+"Interfacing and communication","3", "CORE"
+
+
+"Functional organization","7", "CORE"
+
+
+"Multiprocessing and alternative architectures","3", "CORE"
+
+
+"Performance enhancements","time not present", "ELECTIVE"
+
+
+"Architecture for networks and distributed systems","time not present", "ELECTIVE"
+
+
+"Overview of operating systems","2", "CORE"
+
+
+"Operating system principles","2", "CORE"
+
+
+"Concurrency","6", "CORE"
+
+
+"Scheduling and dispatch","3", "CORE"
+
+
+"Memory management","5", "CORE"
+
+
+"Device management","time not present", "ELECTIVE"
+
+
+"Security and protection","time not present", "ELECTIVE"
+
+
+"File systems","time not present", "ELECTIVE"
+
+
+"Real-time and embedded systems","time not present", "ELECTIVE"
+
+
+"Fault tolerance","time not present", "ELECTIVE"
+
+
+"System performance evaluation","time not present", "ELECTIVE"
+
+
+"Scripting","time not present", "ELECTIVE"
+
+
+"Introduction to net-centric computing","2", "CORE"
+
+
+"Communication and networking","7", "CORE"
+
+
+"Network security","3", "CORE"
+
+
+"The web as an example of client-server computing","3", "CORE"
+
+
+"Building web applications","time not present", "ELECTIVE"
+
+
+"Network management","time not present", "ELECTIVE"
+
+
+"Compression and decompression","time not present", "ELECTIVE"
+
+
+"Multimedia data technologies","time not present", "ELECTIVE"
+
+
+"Wireless and mobile computing","time not present", "ELECTIVE"
+
+
+"Overview of programming languages","2", "CORE"
+
+
+"Virtual machines","1", "CORE"
+
+
+"Introduction to language translation","2", "CORE"
+
+
+"Declarations and types","3", "CORE"
+
+
+"Abstraction mechanisms","3", "CORE"
+
+
+"Object-oriented programming","10", "CORE"
+
+
+"Functional programming","time not present", "ELECTIVE"
+
+
+"Language translation systems","time not present", "ELECTIVE"
+
+
+"Type systems","time not present", "ELECTIVE"
+
+
+"Programming language semantics","time not present", "ELECTIVE"
+
+
+"Programming language design","time not present", "ELECTIVE"
+
+
+"Foundations of human-computer interaction","6", "CORE"
+
+
+"Building a simple graphical user interface","2", "CORE"
+
+
+"Human-centered software evaluation","time not present", "ELECTIVE"
+
+
+"Human-centered software development","time not present", "ELECTIVE"
+
+
+"Graphical user-interface design","time not present", "ELECTIVE"
+
+
+"Graphical user-interface programming","time not present", "ELECTIVE"
+
+
+"HCI aspects of multimedia systems","time not present", "ELECTIVE"
+
+
+"HCI aspects of collaboration and communication","time not present", "ELECTIVE"
+
+
+"Fundamental techniques in graphics","2", "CORE"
+
+
+"Graphic systems","1", "CORE"
+
+
+"Graphic communication","time not present", "ELECTIVE"
+
+
+"Geometric modeling","time not present", "ELECTIVE"
+
+
+"Basic rendering","time not present", "ELECTIVE"
+
+
+"Advanced rendering","time not present", "ELECTIVE"
+
+
+"Advanced techniques","time not present", "ELECTIVE"
+
+
+"Computer animation","time not present", "ELECTIVE"
+
+
+"Visualization","time not present", "ELECTIVE"
+
+
+"Virtual reality","time not present", "ELECTIVE"
+
+
+"Computer vision","time not present", "ELECTIVE"
+
+
+"Fundamental issues in intelligent systems","1", "CORE"
+
+
+"Search and constraint satisfaction","5", "CORE"
+
+
+"Knowledge representation and reasoning","4", "CORE"
+
+
+"Advanced search","time not present", "ELECTIVE"
+
+
+"Advanced knowledge representation and reasoning","time not present", "ELECTIVE"
+
+
+"Agents","time not present", "ELECTIVE"
+
+
+"Natural language processing","time not present", "ELECTIVE"
+
+
+"Machine learning and neural networks","time not present", "ELECTIVE"
+
+
+"AI planning systems","time not present", "ELECTIVE"
+
+
+"Robotics","time not present", "ELECTIVE"
+
+
+"Information models and systems","3", "CORE"
+
+
+"Database systems","3", "CORE"
+
+
+"Data modeling","4", "CORE"
+
+
+"Relational databases","time not present", "ELECTIVE"
+
+
+"Database query languages","time not present", "ELECTIVE"
+
+
+"Relational database design","time not present", "ELECTIVE"
+
+
+"Transaction processing","time not present", "ELECTIVE"
+
+
+"Distributed databases","time not present", "ELECTIVE"
+
+
+"Physical database design","time not present", "ELECTIVE"
+
+
+"Data mining","time not present", "ELECTIVE"
+
+
+"Information storage and retrieval","time not present", "ELECTIVE"
+
+
+"Hypertext and hypermedia","time not present", "ELECTIVE"
+
+
+"Multimedia information and systems","time not present", "ELECTIVE"
+
+
+"Digital libraries","time not present", "ELECTIVE"
+
+
+"History of computing","1", "CORE"
+
+
+"Social context of computing","3", "CORE"
+
+
+"Methods and tools of analysis","2", "CORE"
+
+
+"Professional and ethical responsibilities","3", "CORE"
+
+
+"Risks and liabilities of computer-based systems","2", "CORE"
+
+
+"Intellectual property","3", "CORE"
+
+
+"Privacy and civil liberties","2", "CORE"
+
+
+"Computer crime","time not present", "ELECTIVE"
+
+
+"Economic issues in computing","time not present", "ELECTIVE"
+
+
+"Philosophical frameworks","time not present", "ELECTIVE"
+
+
+"Software design","8", "CORE"
+
+
+"Using APIs","5", "CORE"
+
+
+"Software tools and environments","3", "CORE"
+
+
+"Software processes","2", "CORE"
+
+
+"Software requirements and specifications","4", "CORE"
+
+
+"Software validation","3", "CORE"
+
+
+"Software evolution","3", "CORE"
+
+
+"Software project management","3", "CORE"
+
+
+"Component-based computing","time not present", "ELECTIVE"
+
+
+"Formal methods","time not present", "ELECTIVE"
+
+
+"Software reliability","time not present", "ELECTIVE"
+
+
+"Specialized systems development","time not present", "ELECTIVE"
+
+
+"Numerical analysis","time not present", "ELECTIVE"
+
+
+"Operations research","time not present", "ELECTIVE"
+
+
+"Modeling and simulation","time not present", "ELECTIVE"
+
+
+"High-performance computing","time not present", "ELECTIVE"
+

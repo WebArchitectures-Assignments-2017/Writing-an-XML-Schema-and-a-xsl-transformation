@@ -1,0 +1,3034 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TAXONOMY ID="ACM2001-Trento">
+<AREA ID="DS">
+<AREA_NAME>Discrete Structures</AREA_NAME><SHORT_NAME  SOURCE="trento">Discrete Structures</SHORT_NAME>
+<DESCRIPTION>
+Discrete structures is foundational material for computer science. By foundational we
+mean that relatively few computer scientists will be working primarily on discrete
+structures, but that many other areas of computer science require the ability to work with
+concepts from discrete structures. Discrete structures includes important material from
+such areas as set theory, logic, graph theory, and combinatorics.
+The material in discrete structures is pervasive in the areas of data structures and
+algorithms but appears elsewhere in computer science as well. For example, an ability to
+create and understand a formal proof is essential in formal specification, in verification,
+and in cryptography. Graph theory concepts are used in networks, operating systems, and
+compilers. Set theory concepts are used in software engineering and in databases.
+As the field of computer science matures, more and more sophisticated analysis
+techniques are being brought to bear on practical problems. To understand the
+computational techniques of the future, today?s students will need a strong background in
+discrete structures.
+Finally, we note that while areas often have somewhat fuzzy boundaries, this is especially
+true for discrete structures. We have gathered together here a body of material of a
+mathematical nature that computer science education must include, and that computer
+science educators know well enough to specify in great detail. However, the decision
+about where to draw the line between this area and the Algorithms and Complexity area
+(AL) on the one hand, and topics left only as supporting mathematics on the other hand,
+was inevitably somewhat arbitrary. We remind readers that there are vital topics from
+those two areas that some schools will include in courses with titles like discrete
+structures.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="DS1" TYPE="CORE"><UNIT_NAME>Functions, relations, and sets</UNIT_NAME><SHORT_NAME  SOURCE="trento">Functions</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Functions (surjections, injections, inverses, composition)</TOPIC>
+<TOPIC>Relations (reflexivity, symmetry, transitivity, equivalence relations)</TOPIC>
+<TOPIC>Sets (Venn diagrams, complements, Cartesian products, power sets)</TOPIC>
+<TOPIC>Pigeonhole principle</TOPIC>
+<TOPIC>Cardinality and countability</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain with examples the basic terminology of functions, relations, and sets.</OBJECTIVE>
+<OBJECTIVE>Perform the operations associated with sets, functions, and relations.</OBJECTIVE>
+<OBJECTIVE>Relate practical examples to the appropriate set, function, or relation model, and  interpret the associated operations and terminology in context.</OBJECTIVE>
+<OBJECTIVE>Demonstrate basic counting principles, including uses of diagonalization and the  pigeonhole principle.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="DS2" TYPE="CORE"><UNIT_NAME>Basic logic</UNIT_NAME><SHORT_NAME  SOURCE="trento">Logic</SHORT_NAME>
+<TIME>10</TIME>
+<TOPICS>
+<TOPIC>Propositional logic</TOPIC>
+<TOPIC>Logical connectives</TOPIC>
+<TOPIC>Truth tables</TOPIC>
+<TOPIC>Normal forms (conjunctive and disjunctive)</TOPIC>
+<TOPIC>Validity</TOPIC>
+<TOPIC>Predicate logic</TOPIC>
+<TOPIC>Universal and existential quantification</TOPIC>
+<TOPIC>Modus ponens and modus tollens</TOPIC>
+<TOPIC>Limitations of predicate logic</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Apply formal methods of symbolic propositional and predicate logic.</OBJECTIVE>
+<OBJECTIVE>Describe how formal tools of symbolic logic are used to model algorithms and reallife  situations.</OBJECTIVE>
+<OBJECTIVE>Use formal logic proofs and logical reasoning to solve problems such as puzzles.</OBJECTIVE>
+<OBJECTIVE>Describe the importance and limitations of predicate logic.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="DS3" TYPE="CORE"><UNIT_NAME>Proof techniques</UNIT_NAME><SHORT_NAME  SOURCE="trento">Proofs</SHORT_NAME>
+<TIME>12</TIME>
+<TOPICS>
+<TOPIC>Notions of implication, converse, inverse, contrapositive, negation, and contradiction</TOPIC>
+<TOPIC>The structure of formal proofs</TOPIC>
+<TOPIC>Direct proofs</TOPIC>
+<TOPIC>Proof by counterexample</TOPIC>
+<TOPIC>Proof by contraposition</TOPIC>
+<TOPIC>Proof by contradiction</TOPIC>
+<TOPIC>Mathematical induction</TOPIC>
+<TOPIC>Strong induction</TOPIC>
+<TOPIC>Recursive mathematical definitions</TOPIC>
+<TOPIC>Well orderings</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Outline the basic structure of and give examples of each proof technique described in  this unit.</OBJECTIVE>
+<OBJECTIVE>Discuss which type of proof is best for a given problem.</OBJECTIVE>
+<OBJECTIVE>Relate the ideas of mathematical induction to recursion and recursively defined  structures.</OBJECTIVE>
+<OBJECTIVE>Identify the difference between mathematical and strong induction and give examples
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="DS4" TYPE="CORE"><UNIT_NAME>Basics of counting</UNIT_NAME><SHORT_NAME  SOURCE="trento">Counting</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>Counting arguments</TOPIC>
+<TOPIC>Sum and product rule</TOPIC>
+<TOPIC>Inclusion-exclusion principle</TOPIC>
+<TOPIC>Arithmetic and geometric progressions</TOPIC>
+<TOPIC>Fibonacci numbers</TOPIC>
+<TOPIC>The pigeonhole principle</TOPIC>
+<TOPIC>Permutations and combinations</TOPIC>
+<TOPIC>Basic definitions</TOPIC>
+<TOPIC>Pascals identity</TOPIC>
+<TOPIC>The binomial theorem</TOPIC>
+<TOPIC>Solving recurrence relations</TOPIC>
+<TOPIC>Common examples</TOPIC>
+<TOPIC>The Master theorem</TOPIC>
+</TOPICS>
+
+
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compute permutations and combinations of a set, and interpret the meaning in the  context of the particular application.</OBJECTIVE>
+<OBJECTIVE>State the definition of the Master theorem.</OBJECTIVE>
+<OBJECTIVE>Solve a variety of basic recurrence equations.</OBJECTIVE>
+<OBJECTIVE>Analyze a problem to create relevant recurrence equations or to identify important  counting questions.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="DS5" TYPE="CORE"><UNIT_NAME>Graphs and trees</UNIT_NAME><SHORT_NAME  SOURCE="trento">Graphs/Trees</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Trees</TOPIC>
+<TOPIC>Undirected graphs</TOPIC>
+<TOPIC>Directed graphs</TOPIC>
+<TOPIC>Spanning trees</TOPIC>
+<TOPIC>Traversal strategies</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Illustrate by example the basic terminology of graph theory, and some of the  properties and special cases of each.</OBJECTIVE>
+<OBJECTIVE>Demonstrate different traversal methods for trees and graphs.</OBJECTIVE>
+<OBJECTIVE>Model problems in computer science using graphs and trees.</OBJECTIVE>
+<OBJECTIVE>Relate graphs and trees to data structures, algorithms, and counting.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="DS6" TYPE="CORE"><UNIT_NAME>Discrete probability</UNIT_NAME><SHORT_NAME  SOURCE="trento">Discrete Probability</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Finite probability space, probability measure, events</TOPIC>
+<TOPIC>Conditional probability, independence, Bayes theorem</TOPIC>
+<TOPIC>Integer random variables, expectation</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Calculate probabilities-of events and expectations of random variables for elementary  problems such as games of chance.</OBJECTIVE>
+<OBJECTIVE>Differentiate between dependent and independent events.</OBJECTIVE>
+<OBJECTIVE>Apply the binomial theorem to independent events and Bayes theorem to dependent  events.</OBJECTIVE>
+<OBJECTIVE>Apply the tools of probability to solve problems such as the Monte Carlo method, the  average case analysis of algorithms, and hashing.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="PF">
+<AREA_NAME>Programming Fundamentals</AREA_NAME><SHORT_NAME  SOURCE="trento">Programming</SHORT_NAME>
+<DESCRIPTION>
+Fluency in a programming language is prerequisite to the study of most of computer
+science. In the CC1991 report, knowledge of a programming language?while identified
+as essential?was given little emphasis in the curriculum. The ?Introduction to a
+Programming Language? area in CC1991 represents only 12 hours of class time and is
+identified as optional, under the optimistic assumption that ?increasing numbers of
+students . . . gain such experience in secondary school.? We believe that undergraduate
+computer science programs must teach students how to use at least one programming
+language well furthermore, we recommend that computer science programs should teach
+students to become competent in languages that make use of at least two programming
+paradigms. Accomplishing this goal requires considerably more than 12 hours.
+This knowledge area consists of those skills and concepts that are essential to
+programming practice independent of the underlying paradigm. As a result, this area
+includes units on fundamental programming concepts, basic data structures, and
+algorithmic processes. These units, however, by no means cover the full range of
+programming knowledge that a computer science undergraduate must know. Many of the
+other areas?most notably Programming Languages (PL) and Software Engineering
+(SE)?also contain programming-related units that are part of the undergraduate core. In
+most cases, these units could equally well have been assigned to either Programming
+Fundamentals or the more advanced area.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="PF1" TYPE="CORE"><UNIT_NAME>Fundamental programming constructs</UNIT_NAME><SHORT_NAME  SOURCE="trento">Constructs</SHORT_NAME>
+<TIME>9</TIME>
+<TOPICS>
+<TOPIC>Basic syntax and semantics of a higher-level language</TOPIC>
+<TOPIC>Variables, types, expressions, and assignment</TOPIC>
+<TOPIC>Simple IO</TOPIC>
+<TOPIC>Conditional and iterative control structures</TOPIC>
+<TOPIC>Functions and parameter passing</TOPIC>
+<TOPIC>Structured decomposition</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Analyze and explain the behavior of simple programs involving the fundamental  programming constructs covered by this unit.</OBJECTIVE>
+<OBJECTIVE>Modify and expand short programs that use standard conditional and iterative control  structures and functions.</OBJECTIVE>
+<OBJECTIVE>Design, implement, test, and debug a program that uses each of the following  fundamental programming constructs basic computation, simple IO, standard  conditional and iterative structures, and the definition of functions.</OBJECTIVE>
+<OBJECTIVE>Choose appropriate conditional and iteration constructs for a given programming task.</OBJECTIVE>
+<OBJECTIVE>Apply the techniques of structured (functional) decomposition to break a program  into smaller pieces.</OBJECTIVE>
+<OBJECTIVE>Describe the mechanics of parameter passing.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PF2" TYPE="CORE"><UNIT_NAME>Algorithms and problem-solving</UNIT_NAME><SHORT_NAME  SOURCE="trento">Algorithms</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Problem-solving strategies</TOPIC>
+<TOPIC>The role of algorithms in the problem-solving process</TOPIC>
+<TOPIC>Implementation strategies for algorithms</TOPIC>
+<TOPIC>Debugging strategies</TOPIC>
+<TOPIC>The concept and properties of algorithms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the importance of algorithms in the problem-solving process.</OBJECTIVE>
+<OBJECTIVE>Identify the necessary properties of good algorithms.</OBJECTIVE>
+<OBJECTIVE>Create algorithms for solving simple problems.</OBJECTIVE>
+<OBJECTIVE>Use pseudocode or a programming language to implement, test, and debug algorithms  for solving simple problems.</OBJECTIVE>
+<OBJECTIVE>Describe strategies that are useful in debugging.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PF3" TYPE="CORE"><UNIT_NAME>Fundamental data structures</UNIT_NAME><SHORT_NAME  SOURCE="trento">Data Structures</SHORT_NAME>
+<TIME>14</TIME>
+<TOPICS>
+<TOPIC>Primitive types</TOPIC>
+<TOPIC>Arrays</TOPIC>
+<TOPIC>Records</TOPIC>
+<TOPIC>Strings and string processing</TOPIC>
+<TOPIC>Data representation in memory</TOPIC>
+<TOPIC>Static, stack, and heap allocation</TOPIC>
+<TOPIC>Runtime storage management</TOPIC>
+<TOPIC>Pointers and references</TOPIC>
+<TOPIC>Linked structures</TOPIC>
+<TOPIC>Implementation strategies for stacks, queues, and hash tables</TOPIC>
+<TOPIC>Implementation strategies for graphs and trees</TOPIC>
+<TOPIC>Strategies for choosing the right data structure</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the representation and use of primitive data types and built-in data structures.</OBJECTIVE>
+<OBJECTIVE>Describe how the data structures in the topic list are allocated and used in memory.</OBJECTIVE>
+<OBJECTIVE>Describe common applications for each data structure in the topic list.</OBJECTIVE>
+<OBJECTIVE>Implement the user-defined data structures in a high-level language.</OBJECTIVE>
+<OBJECTIVE>Compare alternative implementations of data structures with respect to performance.</OBJECTIVE>
+<OBJECTIVE>Write programs that use each of the following data structures  arrays, records, strings,  linked lists, stacks, queues, and hash tables.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the costs and benefits of dynamic and static data structure  implementations.</OBJECTIVE>
+<OBJECTIVE>Choose the appropriate data structure for modeling a given problem.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PF4" TYPE="CORE"><UNIT_NAME>Recursion</UNIT_NAME><SHORT_NAME  SOURCE="trento">Recursion</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>The concept of recursion</TOPIC>
+<TOPIC>Recursive mathematical functions</TOPIC>
+<TOPIC>Simple recursive procedures</TOPIC>
+<TOPIC>Divide-and-conquer strategies</TOPIC>
+<TOPIC>Recursive backtracking</TOPIC>
+<TOPIC>Implementation of recursion</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the concept of recursion and give examples of its use.</OBJECTIVE>
+<OBJECTIVE>Identify the base case and the general case of a recursively defined problem.</OBJECTIVE>
+<OBJECTIVE>Compare iterative and recursive solutions for elementary problems such as factorial.</OBJECTIVE>
+<OBJECTIVE>Describe the divide-and-conquer approach.</OBJECTIVE>
+<OBJECTIVE>Implement, test, and debug simple recursive functions and procedures.</OBJECTIVE>
+<OBJECTIVE>Describe how recursion can be implemented using a stack.</OBJECTIVE>
+<OBJECTIVE>Discuss problems for which backtracking is an appropriate solution.</OBJECTIVE>
+<OBJECTIVE>Determine when a recursive solution is appropriate for a problem.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PF5" TYPE="CORE"><UNIT_NAME>Event-driven programming</UNIT_NAME><SHORT_NAME  SOURCE="trento">Event Programming</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Event-handling methods</TOPIC>
+<TOPIC>Event propagation</TOPIC>
+<TOPIC>Exception handling</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the difference between event-driven programming and command-line  programming.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug simple event-driven programs that respond to user  events.</OBJECTIVE>
+<OBJECTIVE>Develop code that responds to exception conditions raised during execution.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="AL">
+<AREA_NAME>Algorithms and Complexity</AREA_NAME><SHORT_NAME  SOURCE="trento">Algorithms</SHORT_NAME>
+<DESCRIPTION>
+Algorithms are fundamental to computer science and software engineering. The realworld
+performance of any software system depends on only two things (1) the
+algorithms chosen and (2) the suitability and efficiency of the various layers of
+implementation. Good algorithm design is therefore crucial for the performance of all
+software systems. Moreover, the study of algorithms provides insight into the intrinsic
+nature of the problem as well as possible solution techniques independent of
+programming language, programming paradigm, computer hardware, or any other
+implementation aspect.
+An important part of computing is the ability to select algorithms appropriate to particular
+purposes and to apply them, recognizing the possibility that no suitable algorithm may
+exist. This facility relies on understanding the range of algorithms that address an
+important set of well-defined problems, recognizing their strengths and weaknesses, and
+their suitability in particular contexts. Efficiency is a pervasive theme throughout this
+area.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="AL1" TYPE="CORE"><UNIT_NAME>Basic algorithmic analysis</UNIT_NAME><SHORT_NAME  SOURCE="trento">Algorithm Analysis</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Asymptotic analysis of upper and average complexity bounds</TOPIC>
+<TOPIC>Identifying differences among best, average, and worst case behaviors</TOPIC>
+<TOPIC>Big O, little o, omega, and theta notation</TOPIC>
+<TOPIC>Standard complexity classes</TOPIC>
+<TOPIC>Empirical measurements of performance</TOPIC>
+<TOPIC>Time and space tradeoffs in algorithms</TOPIC>
+<TOPIC>Using recurrence relations to analyze recursive algorithms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the use of big O, omega, and theta notation to describe the amount of work done by an algorithm.</OBJECTIVE>
+<OBJECTIVE>Use big O, omega, and theta notation to give asymptotic upper, lower, and tight  bounds on time and space complexity of algorithms.</OBJECTIVE>
+<OBJECTIVE>Determine the time and space complexity of simple algorithms.</OBJECTIVE>
+<OBJECTIVE>Deduce recurrence relations that describe the time complexity of recursively defined  algorithms.</OBJECTIVE>
+<OBJECTIVE>Solve elementary recurrence relations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL2" TYPE="CORE"><UNIT_NAME>Algorithmic strategies</UNIT_NAME><SHORT_NAME  SOURCE="trento">Strategies</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Brute-force algorithms</TOPIC>
+<TOPIC>Greedy algorithms</TOPIC>
+<TOPIC>Divide-and-conquer</TOPIC>
+<TOPIC>Backtracking</TOPIC>
+<TOPIC>Branch-and-bound</TOPIC>
+<TOPIC>Heuristics</TOPIC>
+<TOPIC>Pattern matching and string/text algorithms</TOPIC>
+<TOPIC>Numerical approximation algorithms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the shortcoming of brute-force algorithms.</OBJECTIVE>
+<OBJECTIVE>For each of several kinds of algorithm (brute force, greedy, divide-and-conquer,  backtracking, branch-and-bound, and heuristic), identify an example of everyday  human behavior that exemplifies the basic concept.</OBJECTIVE>
+<OBJECTIVE>Implement a greedy algorithm to solve an appropriate problem.</OBJECTIVE>
+<OBJECTIVE>Implement a divide-and-conquer algorithm to solve an appropriate problem.</OBJECTIVE>
+<OBJECTIVE>Use backtracking to solve a problem such as navigating a maze.</OBJECTIVE>
+<OBJECTIVE>Describe various heuristic problem-solving methods.</OBJECTIVE>
+<OBJECTIVE>Use pattern matching to analyze substrings.</OBJECTIVE>
+<OBJECTIVE>Use numerical approximation to solve mathematical problems, such as finding the  roots of a polynomial.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL3" TYPE="CORE"><UNIT_NAME>Fundamental computing algorithms</UNIT_NAME><SHORT_NAME  SOURCE="trento">Algorithms</SHORT_NAME>
+<TIME>12</TIME>
+<TOPICS>
+<TOPIC>Simple numerical algorithms</TOPIC>
+<TOPIC>Sequential and binary search algorithms</TOPIC>
+<TOPIC>Quadratic sorting algorithms (selection, insertion)</TOPIC>
+<TOPIC>O(N log N) sorting algorithms (Quicksort, heapsort, mergesort)</TOPIC>
+<TOPIC>Hash tables, including collision-avoidance strategies</TOPIC>
+<TOPIC>Binary search trees</TOPIC>
+<TOPIC>Representations of graphs (adjacency list, adjacency matrix)</TOPIC>
+<TOPIC>Depth- and breadth-first traversals</TOPIC>
+<TOPIC>Shortest-path algorithms (Dijkstras and Floyds algorithms)</TOPIC>
+<TOPIC>Transitive closure (Floyds algorithm)</TOPIC>
+<TOPIC>Minimum spanning tree (Prims and Kruskals algorithms)</TOPIC>
+<TOPIC>Topological sort</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Implement the most common quadratic and O(N log N) sorting algorithms.</OBJECTIVE>
+<OBJECTIVE>Design and implement an appropriate hashing function for an application.</OBJECTIVE>
+<OBJECTIVE>Design and implement a collision-resolution algorithm for a hash table.</OBJECTIVE>
+<OBJECTIVE>Discuss the computational efficiency of the principal algorithms for sorting,searching, and hashing.</OBJECTIVE>
+<OBJECTIVE>Discuss factors other than computational efficiency that influence the choice of algorithms, such as programming time, maintainability, and the use of applicationspecific patterns in the input data.</OBJECTIVE>
+<OBJECTIVE>Solve problems using the fundamental graph algorithms, including depth-first and  breadth-first search, single-SOURCE and all-pairs shortest paths, transitive closure,  topological sort, and at least one minimum spanning tree algorithm.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the following capabilities:,to evaluate algorithms, to select from a range  of possible options, to provide justification for that selection, and to implement the  algorithm in programming context.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL4" TYPE="CORE"><UNIT_NAME>Distributed algorithms</UNIT_NAME><SHORT_NAME  SOURCE="trento">Distributed</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Consensus and election</TOPIC>
+<TOPIC>Termination detection</TOPIC>
+<TOPIC>Fault tolerance</TOPIC>
+<TOPIC>Stabilization</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the distributed paradigm.</OBJECTIVE>
+<OBJECTIVE>Explain one simple distributed algorithm.</OBJECTIVE>
+<OBJECTIVE>Determine when to use consensus or election algorithms.</OBJECTIVE>
+<OBJECTIVE>Distinguish between logical and physical clocks.</OBJECTIVE>
+<OBJECTIVE>Describe the relative ordering of events in a distributed algorithm.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL5" TYPE="CORE"><UNIT_NAME>Basic computability</UNIT_NAME><SHORT_NAME  SOURCE="trento">Computability</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Finite-state machines</TOPIC>
+<TOPIC>Context-free grammars</TOPIC>
+<TOPIC>Tractable and intractable problems</TOPIC>
+<TOPIC>Uncomputable functions</TOPIC>
+<TOPIC>The halting problem</TOPIC>
+<TOPIC>Implications of uncomputability</TOPIC>
+
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the concept of finite state machines.</OBJECTIVE>
+<OBJECTIVE>Explain context-free grammars.</OBJECTIVE>
+<OBJECTIVE>Design a deterministic finite-state machine to accept a specified language.</OBJECTIVE>
+<OBJECTIVE>Explain how some problems have no algorithmic solution.</OBJECTIVE>
+<OBJECTIVE>Provide examples that illustrate the concept of uncomputability.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL6" TYPE="ELECTIVE"><UNIT_NAME>The complexity classes P and NP</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">P and NP</SHORT_NAME>
+<TOPICS>
+  <TOPIC>Definition of the classes P and NP</TOPIC>
+  <TOPIC>NP-completeness (Cooks theorem)</TOPIC>
+  <TOPIC>Standard NP-complete problems</TOPIC>
+  <TOPIC>Reduction techniques</TOPIC>
+ </TOPICS>
+ <LEARNING_OBJECTIVES>
+  <OBJECTIVE>Define the classes P and NP.</OBJECTIVE>
+  <OBJECTIVE>Explain the significance of NP-completeness.</OBJECTIVE>
+  <OBJECTIVE>Prove that a problem is NP-complete by reducing a classic known NP-complete  problem to it.</OBJECTIVE>
+ </LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL7" TYPE="ELECTIVE"><UNIT_NAME>Automata theory</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Automata</SHORT_NAME>
+ <TOPICS>
+  <TOPIC>Deterministic finite automata (DFAs)</TOPIC>
+  <TOPIC>Nondeterministic finite automata (NFAs)</TOPIC>
+  <TOPIC>Equivalence of DFAs and NFAs</TOPIC>
+  <TOPIC>Regular expressions</TOPIC>
+  <TOPIC>The pumping lemma for regular expressions</TOPIC>
+  <TOPIC>Push-down automata (PDAs)</TOPIC>
+  <TOPIC>Relationship of PDAs and context-free grammars</TOPIC>
+  <TOPIC>Properties of context-free grammars</TOPIC>
+  <TOPIC>Turing machines</TOPIC>
+  <TOPIC>Nondeterministic Turing machines</TOPIC>
+  <TOPIC>Sets and languages</TOPIC>
+  <TOPIC>Chomsky hierarchy</TOPIC>
+  <TOPIC>The Church-Turing thesis</TOPIC>
+ </TOPICS>
+ <LEARNING_OBJECTIVES>
+  <OBJECTIVE>Determine a languages location in the Chomsky hierarchy (regular sets, context-free,  context-sensitive, and recursively enumerable languages).</OBJECTIVE>
+  <OBJECTIVE>Prove that a language is in a specified class and that it is not in the next lower class.</OBJECTIVE>
+  <OBJECTIVE>Convert among equivalently powerful notations for a language, including among  DFAs, NFAs, and regular expressions, and between PDAs and CFGs.</OBJECTIVE>
+  <OBJECTIVE>Explain at least one algorithm for both top-down and bottom-up parsing.</OBJECTIVE>
+  <OBJECTIVE>Explain the Church-Turing thesis and its significance.</OBJECTIVE>
+ </LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL8" TYPE="ELECTIVE"><UNIT_NAME>Advanced algorithmic analysis</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Adv. Alg.Analysis</SHORT_NAME>
+<TOPICS>
+<TOPIC>Amortized analysis</TOPIC>
+<TOPIC>Online and offline algorithms</TOPIC>
+<TOPIC>Randomized algorithms</TOPIC>
+<TOPIC>Dynamic programming</TOPIC>
+<TOPIC>Combinatorial optimization</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Use the potential method to provide an amortized analysis of previously unseen data  structure, given the potential function.</OBJECTIVE>
+<OBJECTIVE>Explain why competitive analysis is an appropriate measure for online algorithms.</OBJECTIVE>
+<OBJECTIVE>Explain the use of randomization in the design of an algorithm for a problem where a  deterministic algorithm is unknown or much more difficult.</OBJECTIVE>
+<OBJECTIVE>Design and implement a dynamic programming solution to a problem.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL9" TYPE="ELECTIVE"><UNIT_NAME>Cryptographic algorithms</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Cryptographic</SHORT_NAME>
+<TOPICS>
+<TOPIC>Historical overview of cryptography</TOPIC>
+<TOPIC>Private-key cryptography and the key-exchange problem</TOPIC>
+<TOPIC>Public-key cryptography</TOPIC>
+<TOPIC>Digital signatures</TOPIC>
+<TOPIC>Security protocols</TOPIC>
+<TOPIC>Applications (zero-knowledge proofs, authentication, and so on)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe efficient basic number-theoretic algorithms, including greatest common  divisor, multiplicative inverse mod n, and raising to powers mod n.</OBJECTIVE>
+<OBJECTIVE>Describe at least one public-key cryptosystem, including a necessary complexitytheoretic  assumption for its security.</OBJECTIVE>
+<OBJECTIVE>Create simple extensions of cryptographic protocols, using known protocols and  cryptographic primitives.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL10" TYPE="ELECTIVE"><UNIT_NAME>Geometric algorithms</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Geometric</SHORT_NAME>
+<TOPICS>
+<TOPIC>Line segments  properties, intersections</TOPIC>
+<TOPIC>Convex hull finding algorithms</TOPIC>
+</TOPICS>
+
+
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe and give time analysis of at least two algorithms for finding a convex hull.</OBJECTIVE>
+<OBJECTIVE>Justify the Omega(N log N) lower bound on finding the convex hull.</OBJECTIVE>
+<OBJECTIVE>Describe at least one additional efficient computational geometry algorithm, such as  finding the closest pair of points, convex layers, or maximal layers.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AL11" TYPE="ELECTIVE"><UNIT_NAME>Parallel algorithms</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Parallel</SHORT_NAME>
+<TOPICS>
+<TOPIC>PRAM model</TOPIC>
+<TOPIC>Exclusive versus concurrent reads and writes</TOPIC>
+<TOPIC>Pointer jumping</TOPIC>
+<TOPIC>Brents theorem and work efficiency</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe implementation of linked lists on a PRAM.</OBJECTIVE>
+<OBJECTIVE>Use parallel-prefix operation to perform simple computations efficiently in parallel.</OBJECTIVE>
+<OBJECTIVE>Explain Brents theorem and its relevance.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="AR">
+
+<AREA_NAME>Architecture and Organization</AREA_NAME><SHORT_NAME  SOURCE="trento">Architecture</SHORT_NAME>
+<DESCRIPTION>
+The computer lies at the heart of computing. Without it most of the computing
+disciplines today would be a branch of theoretical mathematics. To be a professional in
+any field of computing today, one should not regard the computer as just a black box that
+executes programs by magic. All students of computing should acquire some
+understanding and appreciation of a computer systems functional components, their
+characteristics, their performance, and their interactions. There are practical implications
+as well. Students need to understand computer architecture in order to structure a
+program so that it runs more efficiently on a real machine. In selecting a system to use,
+they should to able to understand the tradeoff among various components, such as CPU
+clock speed vs. memory size.
+The learning outcomes specified for these topics correspond primarily to the core and are
+intended to support programs that elect to require only the minimum 36 hours of
+computer architecture of their students. For programs that want to teach more than the
+minimum, the same topics (AR1-AR7) can be treated at a more advanced level by
+implementing a two-course sequence. For programs that want to cover the elective
+topics, those topics can be introduced within a two-course sequence and or be treated in a
+more comprehensive way in a third course.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="AR1" TYPE="CORE"><UNIT_NAME>Digital logic and digital systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Digital Systems</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Overview and history of computer architecture</TOPIC>
+<TOPIC>Fundamental building blocks (logic gates, flip-flops, counters, registers, PLA)</TOPIC>
+<TOPIC>Logic expressions, minimization, sum of product forms</TOPIC>
+<TOPIC>Register transfer notation</TOPIC>
+<TOPIC>Physical considerations (gate delays, fan-in, fan-out)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the progression of computer architecture from vacuum tubes to VLSI.</OBJECTIVE>
+<OBJECTIVE>Demonstrate an understanding of the basic building blocks and their role in the  historical development of computer architecture.</OBJECTIVE>
+<OBJECTIVE>Use mathematical expressions to describe the functions of simple combinational and  sequential circuits.</OBJECTIVE>
+<OBJECTIVE>Design a simple circuit using the fundamental building blocks.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR2" TYPE="CORE"><UNIT_NAME>Machine level representation of data</UNIT_NAME><SHORT_NAME  SOURCE="trento">Machine Representation</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Bits, bytes, and words</TOPIC>
+<TOPIC>Numeric data representation and number bases</TOPIC>
+<TOPIC>Fixed- and floating-point systems</TOPIC>
+<TOPIC>Signed and twos-complement representations</TOPIC>
+<TOPIC>Representation of nonnumeric data (character codes, graphical data)</TOPIC>
+<TOPIC>Representation of records and arrays</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the reasons for using different formats to represent numerical data.</OBJECTIVE>
+<OBJECTIVE>Explain how negative integers are stored in sign-magnitude and twos-complement  representation.</OBJECTIVE>
+<OBJECTIVE>Convert numerical data from one format to another.</OBJECTIVE>
+<OBJECTIVE>Discuss how fixed-length number representations affect accuracy and precision.</OBJECTIVE>
+<OBJECTIVE>Describe the internal representation of nonnumeric data.</OBJECTIVE>
+<OBJECTIVE>Describe the internal representation of characters, strings, records, and arrays.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR3" TYPE="CORE"><UNIT_NAME>Assembly level machine organization</UNIT_NAME><SHORT_NAME  SOURCE="trento">Low-Level</SHORT_NAME>
+<TIME>9</TIME>
+<TOPICS>
+<TOPIC>Basic organization of the von Neumann machine</TOPIC>
+<TOPIC>Control unit, instruction fetch, decode, and execution</TOPIC>
+<TOPIC>Instruction sets and types (data manipulation, control, IO)</TOPIC>
+<TOPIC>Assembly/machine language programming</TOPIC>
+<TOPIC>Instruction formats</TOPIC>
+<TOPIC>Addressing modes</TOPIC>
+<TOPIC>Subroutine call and return mechanisms</TOPIC>
+<TOPIC>IO and interrupts</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the organization of the classical von Neumann machine and its major  functional units.</OBJECTIVE>
+<OBJECTIVE>Explain how an instruction is executed in a classical von Neumann machine.</OBJECTIVE>
+<OBJECTIVE>Summarize how instructions are represented at both the machine level and in the  context of a symbolic assembler.</OBJECTIVE>
+<OBJECTIVE>Explain different instruction formats, such as addresses per instruction and variable  length vs fixed length formats.</OBJECTIVE>
+<OBJECTIVE>Write simple assembly language program segments.</OBJECTIVE>
+<OBJECTIVE>Demonstrate how fundamental highlevel programming constructs are implemented  at the machinelanguage level.</OBJECTIVE>
+<OBJECTIVE>Explain how subroutine calls are handled at the assembly level.</OBJECTIVE>
+<OBJECTIVE>Explain the basic concepts of interrupts and IO operations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR4" TYPE="CORE"><UNIT_NAME>Memory system organization and architecture</UNIT_NAME><SHORT_NAME  SOURCE="trento">Mem. Org.</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>Storage systems and their technology</TOPIC>
+<TOPIC>Coding, data compression, and data integrity</TOPIC>
+<TOPIC>Memory hierarchy</TOPIC>
+<TOPIC>Main memory organization and operations</TOPIC>
+<TOPIC>Latency, cycle time, bandwidth, and interleaving</TOPIC>
+<TOPIC>Cache memories (address mapping, block size, replacement and store policy)</TOPIC>
+<TOPIC>Virtual memory (page table, TLB)</TOPIC>
+<TOPIC>Fault handling and reliability</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Identify the main types of memory technology.</OBJECTIVE>
+<OBJECTIVE>Explain the effect of memory latency on running time.</OBJECTIVE>
+<OBJECTIVE>Explain the use of memory hierarchy to reduce the effective memory latency.</OBJECTIVE>
+<OBJECTIVE>Describe the principles of memory management.</OBJECTIVE>
+<OBJECTIVE>Describe the role of cache and virtual memory.</OBJECTIVE>
+<OBJECTIVE>Explain the workings of a system with virtual memory management.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR5" TYPE="CORE"><UNIT_NAME>Interfacing and communication</UNIT_NAME><SHORT_NAME  SOURCE="trento">Interfacing</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>IO fundamentals: handshaking, buffering, programmed IO, interrupt-driven IO</TOPIC>
+<TOPIC>Interrupt structures:  vectored and prioritized, interrupt acknowledgment</TOPIC>
+<TOPIC>External storage, physical organization, and drives</TOPIC>
+<TOPIC>Buses : bus protocols, arbitration, direct-memory access (DMA)</TOPIC>
+<TOPIC>Introduction to networks</TOPIC>
+<TOPIC>Multimedia support</TOPIC>
+<TOPIC>RAID architectures</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain how interrupts are used to implement IO control and data transfers.</OBJECTIVE>
+<OBJECTIVE>Identify various types of buses in a computer system.</OBJECTIVE>
+<OBJECTIVE>Describe data access from a magnetic disk drive.</OBJECTIVE>
+<OBJECTIVE>Compare the common network configurations.</OBJECTIVE>
+<OBJECTIVE>Identify interfaces needed for multimedia support.</OBJECTIVE>
+<OBJECTIVE>Describe the advantages and limitations of RAID architectures.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR6" TYPE="CORE"><UNIT_NAME>Functional organization</UNIT_NAME><SHORT_NAME  SOURCE="trento">Functional Org.</SHORT_NAME>
+<TIME>7</TIME>
+<TOPICS>
+<TOPIC>Implementation of simple datapaths</TOPIC>
+<TOPIC>Control unit :
+ hardwired realization vs microprogrammed realization</TOPIC>
+<TOPIC>Instruction pipelining</TOPIC>
+<TOPIC>Introduction to instruction-level parallelism (ILP)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare alternative implementation of datapaths.</OBJECTIVE>
+<OBJECTIVE>Discuss the concept of control points and the generation of control signals using  hardwired or microprogrammed implementations.</OBJECTIVE>
+<OBJECTIVE>Explain basic instruction level parallelism using pipelining and the major hazards that  may occur.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR7" TYPE="CORE"><UNIT_NAME>Multiprocessing and alternative architectures</UNIT_NAME><SHORT_NAME  SOURCE="trento">Multiprocessing</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Introduction to SIMD, MIMD, VLIW, EPIC</TOPIC>
+<TOPIC>Systolic architecture</TOPIC>
+<TOPIC>Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)</TOPIC>
+<TOPIC>Shared memory systems</TOPIC>
+<TOPIC>Cache coherence</TOPIC>
+<TOPIC>Memory models and memory consistency</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the concept of parallel processing beyond the classical von Neumann model.</OBJECTIVE>
+<OBJECTIVE>Describe alternative architectures such as SIMD, MIMD, and VLIW.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of interconnection networks and characterize different  approaches.</OBJECTIVE>
+<OBJECTIVE>Discuss the special concerns that multiprocessing systems present with respect to  memory management and describe how these are addressed.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR8" TYPE="ELECTIVE"><UNIT_NAME>Performance enhancements</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Performance</SHORT_NAME>
+<TOPICS>
+<TOPIC>Superscalar architecture</TOPIC>
+<TOPIC>Branch prediction</TOPIC>
+<TOPIC>Prefetching</TOPIC>
+<TOPIC>Speculative execution</TOPIC>
+<TOPIC>Multithreading</TOPIC>
+<TOPIC>Scalability</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe superscalar architectures and their advantages.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of branch prediction and its utility.</OBJECTIVE>
+<OBJECTIVE>Characterize the costs and benefits of prefetching.</OBJECTIVE>
+<OBJECTIVE>Explain speculative execution and identify the conditions that justify it.</OBJECTIVE>
+<OBJECTIVE>Discuss the performance advantages that multithreading can offer in an architecture  along with the factors that make it difficult to derive maximum benefits from this  approach.</OBJECTIVE>
+<OBJECTIVE>Describe the relevance of scalability to performance.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="AR9" TYPE="ELECTIVE"><UNIT_NAME>Architecture for networks and distributed systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Distributed Sys.</SHORT_NAME>
+<TOPICS>
+<TOPIC>Introduction to LANs and WANs</TOPIC>
+<TOPIC>Layered protocol design, ISO/OSI, IEEE 802</TOPIC>
+<TOPIC>Impact of architectural issues on distributed algorithms</TOPIC>
+<TOPIC>Network computing</TOPIC>
+<TOPIC>Distributed multimedia</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the basic components of network systems and distinguish between LANs and  WANs.</OBJECTIVE>
+<OBJECTIVE>Discuss the architectural issues involved in the design of a layered network protocol.</OBJECTIVE>
+<OBJECTIVE>Explain how architectures differ in network and distributed systems.</OBJECTIVE>
+<OBJECTIVE>Discuss architectural issues related to network computing and distributed multimedia.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="OS">
+<AREA_NAME>Operating Systems</AREA_NAME><SHORT_NAME  SOURCE="trento">OS</SHORT_NAME>
+<DESCRIPTION>
+An operating system defines an abstraction of hardware behavior with which
+programmers can control the hardware. It also manages reSOURCE sharing among the
+computers users. The topics in this area explain the issues that influence the design of
+contemporary operating systems. Courses that cover this area will typically include a
+laboratory component to enable students to experiment with operating systems.
+Over the years, operating systems and their abstractions have become complex relative to
+typical application software. It is necessary to ensure that the student understands the
+extent of the use of an operating system prior to a detailed study of internal
+implementation algorithms and data structures. Therefore these topics address both the
+use of operating systems (externals) and their design and implementation (internals).
+Many of the ideas involved in operating system use have wider applicability across the
+field of computer science, such as concurrent programming. Studying internal design has
+relevance in such diverse areas as dependable programming, algorithm design and
+implementation, modern device development, building virtual environments, caching
+material across the web, building secure and safe systems, network management, and
+many others.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="OS1" TYPE="CORE"><UNIT_NAME>Overview of operating systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Overview</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Role and purpose of the operating system</TOPIC>
+<TOPIC>History of operating system development</TOPIC>
+<TOPIC>Functionality of a typical operating system</TOPIC>
+<TOPIC>Mechanisms to support client-server models, hand-held devices</TOPIC>
+<TOPIC>Design issues (efficiency, robustness, flexibility, portability, security, compatibility)</TOPIC>
+<TOPIC>Influences of security, networking, multimedia, windows</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the objectives and functions of modern operating systems.</OBJECTIVE>
+<OBJECTIVE>Describe how operating systems have evolved over time from primitive batch systems  to sophisticated multiuser systems.</OBJECTIVE>
+<OBJECTIVE>Analyze the tradeoffs inherent in operating system design.</OBJECTIVE>
+<OBJECTIVE>Describe the functions of a contemporary operating system with respect to  convenience, efficiency, and the ability to evolve.</OBJECTIVE>
+<OBJECTIVE>Discuss networked, client-server, distributed operating systems and how they differ  from single user operating systems.</OBJECTIVE>
+<OBJECTIVE>Identify potential threats to operating systems and the security features design to  guard against them.</OBJECTIVE>
+<OBJECTIVE>Describe how issues such as open SOURCE software and the increased use of the  Internet are influencing operating system design.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS2" TYPE="CORE"><UNIT_NAME>Operating system principles</UNIT_NAME><SHORT_NAME  SOURCE="trento">Principles</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Structuring methods (monolithic, layered, modular, micro-kernel models)</TOPIC>
+<TOPIC>Abstractions, processes, and reSOURCEs</TOPIC>
+<TOPIC>Concepts of application program interfaces (APIs)</TOPIC>
+<TOPIC>Application needs and the evolution of hardware/software techniques</TOPIC>
+<TOPIC>Device organization</TOPIC>
+<TOPIC>Interrupts :  methods and implementations</TOPIC>
+<TOPIC>Concept of user/system state and protection, transition to kernel mode</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the concept of a logical layer.</OBJECTIVE>
+<OBJECTIVE>Explain the benefits of building abstract layers in hierarchical fashion.</OBJECTIVE>
+<OBJECTIVE>Defend the need for APIs and middleware.</OBJECTIVE>
+<OBJECTIVE>Describe how computing reSOURCEs are used by application software and managed by  system software.</OBJECTIVE>
+<OBJECTIVE>Contrast kernel and user mode in an operating system.</OBJECTIVE>
+<OBJECTIVE>Discuss the advantages and disadvantages of using interrupt processing.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the various ways of structuring an operating system such as  object-oriented, modular, micro-kernel, and layered.</OBJECTIVE>
+<OBJECTIVE>Explain the use of a device list and driver IO queue.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS3" TYPE="CORE"><UNIT_NAME>Concurrency</UNIT_NAME><SHORT_NAME  SOURCE="trento">Concurrency</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>States and state diagrams</TOPIC>
+<TOPIC>Structures (ready list, process control blocks, and so forth)</TOPIC>
+<TOPIC>Dispatching and context switching</TOPIC>
+<TOPIC>The role of interrupts</TOPIC>
+<TOPIC>Concurrent execution : advantages and disadvantages</TOPIC>
+<TOPIC>The mutual exclusion problem and some solutions</TOPIC>
+<TOPIC>Deadlock : causes, conditions, prevention</TOPIC>
+<TOPIC>Models and mechanisms (semaphores, monitors, condition variables, rendezvous)</TOPIC>
+<TOPIC>Producer-consumer problems and synchronization</TOPIC>
+<TOPIC>Multiprocessor issues (spin-locks, reentrancy)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the need for concurrency within the framework of an operating system.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the potential run-time problems arising from the concurrent operation of  many separate tasks.</OBJECTIVE>
+<OBJECTIVE>Summarize the range of mechanisms that can be employed at the operating system  level to realize concurrent systems and describe the benefits of each.</OBJECTIVE>
+<OBJECTIVE>Explain the different states that a task may pass through and the data structures  needed to support the management of many tasks.</OBJECTIVE>
+<OBJECTIVE>Summarize the various approaches to solving the problem of mutual exclusion in an  operating system.</OBJECTIVE>
+<OBJECTIVE>Describe reasons for using interrupts, dispatching, and context switching to support  concurrency in an operating system.</OBJECTIVE>
+<OBJECTIVE>Create state and transition diagrams for simple problem domains.</OBJECTIVE>
+<OBJECTIVE>Discuss the utility of data structures, such as stacks and queues, in managing  concurrency.</OBJECTIVE>
+<OBJECTIVE>Explain conditions that lead to deadlock.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS4" TYPE="CORE"><UNIT_NAME>Scheduling and dispatch</UNIT_NAME><SHORT_NAME  SOURCE="trento">Scheduling</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Preemptive and nonpreemptive scheduling</TOPIC>
+<TOPIC>Schedulers and policies</TOPIC>
+<TOPIC>Processes and threads</TOPIC>
+<TOPIC>Deadlines and real-time issues</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast the common algorithms used for both preemptive and nonpreemptive  scheduling of tasks in operating systems, such as priority, performance  comparison, and fair-share schemes.</OBJECTIVE>
+<OBJECTIVE>Describe relationships between scheduling algorithms and application domains.</OBJECTIVE>
+<OBJECTIVE>Discuss the types of processor scheduling such as short-term, medium-term, longterm,  and IO.</OBJECTIVE>
+<OBJECTIVE>Describe the difference between processes and threads.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast static and dynamic approaches to real-time scheduling.</OBJECTIVE>
+<OBJECTIVE>Discuss the need for preemption and deadline scheduling.</OBJECTIVE>
+<OBJECTIVE>Identify ways that the logic embodied in scheduling algorithms are applicable to other  domains, such as disk IO, network scheduling, project scheduling, and other  problems unrelated to computing.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS5" TYPE="CORE"><UNIT_NAME>Memory management</UNIT_NAME><SHORT_NAME  SOURCE="trento">Memory Mgmt</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>Review of physical memory and memory management hardware</TOPIC>
+<TOPIC>Overlays, swapping, and partitions</TOPIC>
+<TOPIC>Paging and segmentation</TOPIC>
+<TOPIC>Placement and replacement policies</TOPIC>
+<TOPIC>Working sets and thrashing</TOPIC>
+<TOPIC>Caching</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain memory hierarchy and cost-performance tradeoffs.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of virtual memory and how it is realized in hardware and  software.</OBJECTIVE>
+<OBJECTIVE>Summarize the principles of virtual memory as applied to caching, paging, and  segmentation.</OBJECTIVE>
+<OBJECTIVE>Evaluate the tradeoffs in terms of memory size (main memory, cache memory,  auxiliary memory) and processor speed.</OBJECTIVE>
+<OBJECTIVE>Defend the different ways of allocating memory to tasks, citing the relative merits of  each.</OBJECTIVE>
+<OBJECTIVE>Describe the reason for and use of cache memory.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast paging and segmentation techniques.</OBJECTIVE>
+<OBJECTIVE>Discuss the concept of thrashing, both in terms of the reasons it occurs and the  techniques used to recognize and manage the problem.</OBJECTIVE>
+<OBJECTIVE>Analyze the various memory portioning techniques including overlays, swapping, and placement and replacement policies.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS6" TYPE="ELECTIVE"><UNIT_NAME>Device management</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Device Mgmt</SHORT_NAME>
+<TOPICS>
+<TOPIC>Characteristics of serial and parallel devices</TOPIC>
+<TOPIC>Abstracting device differences</TOPIC>
+<TOPIC>Buffering strategies</TOPIC>
+<TOPIC>Direct memory access</TOPIC>
+<TOPIC>Recovery from failures</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the key difference between serial and parallel devices and identify the  conditions in which each is appropriate.</OBJECTIVE>
+<OBJECTIVE>Identify the relationship between the physical hardware and the virtual devices  maintained by the operating system.</OBJECTIVE>
+<OBJECTIVE>Explain buffering and describe strategies for implementing it.</OBJECTIVE>
+<OBJECTIVE>Differentiate the mechanisms used in interfacing a range of devices (including handheld  devices, networks, multimedia) to a computer and explain the implications of  these for the design of an operating system.</OBJECTIVE>
+<OBJECTIVE>Describe the advantages and disadvantages of direct memory access and discuss the  circumstances in which its use is warranted.</OBJECTIVE>
+<OBJECTIVE>Identify the requirements for failure recovery.</OBJECTIVE>
+<OBJECTIVE>Implement a simple device driver for a range of possible devices.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS7" TYPE="ELECTIVE"><UNIT_NAME>Security and protection</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Security</SHORT_NAME>
+<TOPICS>
+<TOPIC>Overview of system security</TOPIC>
+<TOPIC>Policy/mechanism separation</TOPIC>
+<TOPIC>Security methods and devices</TOPIC>
+<TOPIC>Protection, access, and authentication</TOPIC>
+<TOPIC>Models of protection</TOPIC>
+<TOPIC>Memory protection</TOPIC>
+<TOPIC>Encryption</TOPIC>
+<TOPIC>Recovery management</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Defend the need for protection and security, and the role of ethical considerations in  computer use.</OBJECTIVE>
+<OBJECTIVE>Summarize the features and limitations of an operating system used to provide  protection and security.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast current methods for implementing security.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the strengths and weaknesses of two or more currently popular  operating systems with respect to security.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the security strengths and weaknesses of two or more currently  popular operating systems with respect to recovery management.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS8" TYPE="ELECTIVE"><UNIT_NAME>File systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">File Systems</SHORT_NAME>
+<TOPICS>
+<TOPIC>Files : data, metadata, operations, organization, buffering, sequential, nonsequential</TOPIC>
+<TOPIC>Directories: contents and structure</TOPIC>
+<TOPIC>File systems : partitioning, mount/unmount, virtual file systems</TOPIC>
+<TOPIC>Standard implementation techniques</TOPIC>
+<TOPIC>Memory-mapped files</TOPIC>
+<TOPIC>Special-purpose file systems</TOPIC>
+<TOPIC>Naming, searching, access, backups</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the full range of considerations that support file systems.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast different approaches to file organization, recognizing the  strengths and weaknesses of each.</OBJECTIVE>
+<OBJECTIVE>Summarize how hardware developments have lead to changes in our priorities for the  design and the management of file systems.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS9" TYPE="ELECTIVE"><UNIT_NAME>Real-time and embedded systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Embedded</SHORT_NAME>
+<TOPICS>
+<TOPIC>Process and task scheduling</TOPIC>
+<TOPIC>Memory disk management requirements in a real-time environment</TOPIC>
+<TOPIC>Failures, risks, and recovery</TOPIC>
+<TOPIC>Special concerns in real-time systems</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe what makes a system a real-time system.</OBJECTIVE>
+<OBJECTIVE>Explain the presence of and describe the characteristics of latency in real-time  systems.</OBJECTIVE>
+<OBJECTIVE>Summarize special concerns that real-time systems present and how these concerns  are addressed.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS10" TYPE="ELECTIVE"><UNIT_NAME>Fault tolerance</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Reliable Comp.</SHORT_NAME>
+<TOPICS>
+<TOPIC>Fundamental concepts reliable and available systems</TOPIC>
+<TOPIC>Spatial and temporal redundancy</TOPIC>
+<TOPIC>Methods used to implement fault tolerance</TOPIC>
+<TOPIC>Examples of reliable systems</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the relevance of the terms fault tolerance, reliability, and availability.</OBJECTIVE>
+<OBJECTIVE>Outline the range of methods for implementing fault tolerance in an operating system.</OBJECTIVE>
+<OBJECTIVE>Explain how an operating system can continue functioning after a fault occurs.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS11" TYPE="ELECTIVE"><UNIT_NAME>System performance evaluation</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Performance Eval.</SHORT_NAME>
+<TOPICS>
+<TOPIC>Why system performance needs to be evaluated</TOPIC>
+<TOPIC>What is to be evaluated</TOPIC>
+<TOPIC>Policies for caching, paging, scheduling, memory management, security, and so forth</TOPIC>
+<TOPIC>Evaluation models :  deterministic, analytic, simulation, or implementation-specific</TOPIC>
+<TOPIC>How to collect evaluation data (profiling and tracing mechanisms)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the performance metrics used to determine how a system performs.</OBJECTIVE>
+<OBJECTIVE>Explain the main evaluation models used to evaluate a system.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="OS12" TYPE="ELECTIVE"><UNIT_NAME>Scripting</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Scripting</SHORT_NAME>
+<TOPICS>
+<TOPIC>Scripting and the role of scripting languages</TOPIC>
+<TOPIC>Basic system commands</TOPIC>
+<TOPIC>Creating scripts, parameter passing</TOPIC>
+<TOPIC>Executing a script</TOPIC>
+<TOPIC>Influences of scripting on programming</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize a typical set of system commands provided by an operating system.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the typical functionality of a scripting language, and interpret the  implications for programming.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the mechanisms for implementing scripts and the role of scripts on  system implementation and integration.</OBJECTIVE>
+<OBJECTIVE>Implement a simple script that exhibits parameter passing.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="NC">
+<AREA_NAME>Net-Centric Computing</AREA_NAME><SHORT_NAME  SOURCE="trento">Net</SHORT_NAME>
+<DESCRIPTION>
+Recent advances in computer and telecommunications networking, particularly thosebased on TCP/IP, have increased the importance of networking technologies in thecomputing discipline. Net-centric computing covers a range of sub-specialties including computer communication network concepts and protocols, multimedia systems, Webstandards and technologies, network security, wireless and mobile computing, and
+distributed systems.Mastery of this subject area involves both theory and practice. Learning experiences that
+involve hands-on experimentation and analysis are strongly recommended as they
+reinforce student understanding of concepts and their application to real-world problems.
+Laboratory experiments should involve data collection and synthesis, empirical modeling,
+protocol analysis at the SOURCE code level, network packet monitoring, software
+construction, and evaluation of alternative design models. All of these are important
+concepts that can best understood by laboratory experimentation.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="NC1" TYPE="CORE"><UNIT_NAME>Introduction to net-centric computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Net-Computing</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Background and history of networking and the Internet</TOPIC>
+<TOPIC>Network architectures</TOPIC>
+<TOPIC>The range of specializations within net-centric computing</TOPIC>
+<TOPIC>Networks and protocols</TOPIC>
+<TOPIC>Networked multimedia systems</TOPIC>
+<TOPIC>Distributed computing</TOPIC>
+<TOPIC>Mobile and wireless computing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the evolution of early networks and the Internet.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the ability to use effectively a range of common networked applications  including e-mail, telnet, FTP, newsgroups, and web browsers, online web courses,  and instant messaging.</OBJECTIVE>
+<OBJECTIVE>Explain the hierarchical, layered structure of a typical network architecture.</OBJECTIVE>
+<OBJECTIVE>Describe emerging technologies in the net-centric computing area and assess their  current capabilities, limitations, and near-term potential.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC2" TYPE="CORE"><UNIT_NAME>Communication and networking</UNIT_NAME><SHORT_NAME  SOURCE="trento">Communications</SHORT_NAME>
+<TIME>7</TIME>
+<TOPICS>
+<TOPIC>Network standards and standardization bodies</TOPIC>
+<TOPIC>The ISO 7-layer reference model in general and its instantiation in TCP/IP</TOPIC>
+<TOPIC>Circuit switching and packet switching</TOPIC>
+<TOPIC>Streams and datagrams</TOPIC>
+<TOPIC>Physical layer networking concepts (theoretical basis, transmission media, standards)</TOPIC>
+<TOPIC>Data link layer concepts (framing, error control, flow control, protocols)</TOPIC>
+<TOPIC>Internetworking and routing (routing algorithms, internetworking, congestion control)</TOPIC>
+<TOPIC>Transport layer services (connection establishment, performance issues)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss important network standards in their historical context.</OBJECTIVE>
+<OBJECTIVE>Describe the responsibilities of the first four layers of the ISO reference model.</OBJECTIVE>
+<OBJECTIVE>Discuss the differences between circuit switching and packet switching along with the  advantages and disadvantages of each.</OBJECTIVE>
+<OBJECTIVE>Explain how a network can detect and correct transmission errors.</OBJECTIVE>
+<OBJECTIVE>Illustrate how a packet is routed over the Internet.</OBJECTIVE>
+<OBJECTIVE>Install a simple network with two clients and a single server using standard hostconfiguration  software tools such as DHCP.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC3" TYPE="CORE"><UNIT_NAME>Network security</UNIT_NAME><SHORT_NAME  SOURCE="trento">Network Security</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Fundamentals of cryptography</TOPIC>
+<TOPIC>Secret-key algorithms</TOPIC>
+<TOPIC>Public-key algorithms</TOPIC>
+<TOPIC>Authentication protocols</TOPIC>
+<TOPIC>Digital signatures</TOPIC>
+<TOPIC>Examples</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the fundamental ideas of public-key cryptography.</OBJECTIVE>
+<OBJECTIVE>Describe how public-key cryptography works.</OBJECTIVE>
+<OBJECTIVE>Distinguish between the use of private- and public-key algorithms.</OBJECTIVE>
+<OBJECTIVE>Summarize common authentication protocols.</OBJECTIVE>
+<OBJECTIVE>Generate and distribute a PGP key pair and use the PGP package to send an encrypted  e-mail message.</OBJECTIVE>
+<OBJECTIVE>Summarize the capabilities and limitations of the means of cryptography that are  conveniently available to the general public.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC4" TYPE="CORE"><UNIT_NAME>The web as an example of client-server computing</UNIT_NAME>
+<SHORT_NAME  SOURCE="trento">Web+C/S</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Web technologies</TOPIC>
+<TOPIC>Server-side programs</TOPIC>
+<TOPIC>Common gateway interface (CGI) programs</TOPIC>
+<TOPIC>Client-side scripts</TOPIC>
+<TOPIC>The applet concept</TOPIC>
+<TOPIC>Characteristics of web servers</TOPIC>
+<TOPIC>Handling permissions</TOPIC>
+<TOPIC>File management</TOPIC>
+<TOPIC>Capabilities of common server architectures</TOPIC>
+<TOPIC>Role of client computers</TOPIC>
+<TOPIC>Nature of the client-server relationship</TOPIC>
+<TOPIC>Web protocols</TOPIC>
+<TOPIC>Support tools for web site creation and web management</TOPIC>
+<TOPIC>Developing Internet information servers</TOPIC>
+<TOPIC>Publishing information and applications</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the different roles and responsibilities of clients and servers for a range of  possible applications.</OBJECTIVE>
+<OBJECTIVE>Select a range of tools that will ensure an efficient approach to implementing various  client-server possibilities.</OBJECTIVE>
+<OBJECTIVE>Design and build a simple interactive web-based application (eg, a simple web form  that collects information from the client and stores it in a file on the server).
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC5" TYPE="ELECTIVE"><UNIT_NAME>Building web applications</UNIT_NAME><SHORT_NAME  SOURCE="trento">Web Apps</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Protocols at the application layer</TOPIC>
+<TOPIC>Principles of web engineering</TOPIC>
+<TOPIC>Database-driven web sites</TOPIC>
+<TOPIC>Remote procedure calls (RPC)</TOPIC>
+<TOPIC>Lightweight distributed objects</TOPIC>
+<TOPIC>The role of middleware</TOPIC>
+<TOPIC>Support tools</TOPIC>
+<TOPIC>Security issues in distributed object systems</TOPIC>
+<TOPIC>Enterprise-wide web-based applications</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Illustrate how interactive client-server web applications of medium size can be built  using different types of Web technologies.</OBJECTIVE>
+<OBJECTIVE>Demonstrate how to implement a database-driven web site, explaining the relevant  technologies involved in each tier of the architecture and the accompanying  performance tradeoffs.</OBJECTIVE>
+<OBJECTIVE>Implement a distributed system using any two distributed object frameworks and  compare them with regard to performance and security issues.</OBJECTIVE>
+<OBJECTIVE>Discuss security issues and strategies in an enterprise-wide web-based application.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC6" TYPE="ELECTIVE"><UNIT_NAME>Network management</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Network Mgmt</SHORT_NAME>
+<TOPICS>
+<TOPIC>Overview of the issues of network management</TOPIC>
+<TOPIC>Use of passwords and access control mechanisms</TOPIC>
+<TOPIC>Domain names and name services</TOPIC>
+<TOPIC>Issues for Internet service providers (ISPs)</TOPIC>
+<TOPIC>Security issues and firewalls</TOPIC>
+<TOPIC>Quality of service issues  performance, failure recovery</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the issues for network management arising from a range of security threats,  including viruses, worms, Trojan horses, and denial-of-service attacks</OBJECTIVE>
+<OBJECTIVE>Summarize the strengths and weaknesses associated with different approaches to  security.</OBJECTIVE>
+<OBJECTIVE>Develop a strategy for ensuring appropriate levels of security in a system designed for  a particular purpose.</OBJECTIVE>
+<OBJECTIVE>Implement a network firewall.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC7" TYPE="ELECTIVE"><UNIT_NAME>Compression and decompression</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Compression</SHORT_NAME>
+<TOPICS>
+<TOPIC>Analog and digital representations</TOPIC>
+<TOPIC>Encoding and decoding algorithms</TOPIC>
+<TOPIC>Lossless and lossy compression</TOPIC>
+<TOPIC>Data compression : Huffman coding and the Ziv-Lempel algorithm</TOPIC>
+<TOPIC>Audio compression and decompression</TOPIC>
+<TOPIC>Image compression and decompression</TOPIC>
+<TOPIC>Video compression and decompression</TOPIC>
+<TOPIC>Performance issues : timing, compression factor, suitability for real-time use</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the basic characteristics of sampling and quantization for digital  representation.</OBJECTIVE>
+<OBJECTIVE>Select, giving reasons that are sensitive to the specific application and particular  circumstances, the most appropriate compression techniques for text, audio, image,  and video information.</OBJECTIVE>
+<OBJECTIVE>Explain the asymmetric property of compression and decompression algorithms.</OBJECTIVE>
+<OBJECTIVE>Illustrate the concept of run-length encoding.</OBJECTIVE>
+<OBJECTIVE>Illustrate how a program like the UNIX compress utility, which uses Huffman coding  and the Ziv-Lempel algorithm, would compress a typical text file.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC8" TYPE="ELECTIVE"><UNIT_NAME>Multimedia data technologies</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Multimedia</SHORT_NAME>
+<TOPICS>
+<TOPIC>Sound and audio, image and graphics, animation and video</TOPIC>
+<TOPIC>Multimedia standards (audio, music, graphics, image, telephony, video, TV)</TOPIC>
+<TOPIC>Capacity planning and performance issues</TOPIC>
+<TOPIC>Input and output devices (scanners, digital camera, touch-screens, voice-activated)</TOPIC>
+<TOPIC>MIDI keyboards, synthesizers</TOPIC>
+<TOPIC>Storage standards (Magneto Optical disk, CD-ROM, DVD)</TOPIC>
+<TOPIC>Multimedia servers and file systems</TOPIC>
+<TOPIC>Tools to support multimedia development</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>For each of several media or multimedia standards, describe in non-technical  language what the standard calls for, and explain how aspects of human perception  might be sensitive to the limitations of that standard.</OBJECTIVE>
+<OBJECTIVE>Evaluate the potential of a computer system to host one of a range of possible  multimedia applications, including an assessment of the requirements of multimedia  systems on the underlying networking technology.</OBJECTIVE>
+<OBJECTIVE>Describe the characteristics of a computer system (including identification of support  tools and appropriate standards) that has to host the implementation of one of a range  of possible multimedia applications.</OBJECTIVE>
+<OBJECTIVE>Implement a multimedia application of modest size.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="NC9" TYPE="ELECTIVE"><UNIT_NAME>Wireless and mobile computing</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Mobile Computing</SHORT_NAME>
+<TOPICS>
+<TOPIC>Overview of the history, evolution, and compatibility of wireless standards</TOPIC>
+<TOPIC>The special problems of wireless and mobile computing</TOPIC>
+<TOPIC>Wireless local area networks and satellite-based networks</TOPIC>
+<TOPIC>Wireless local loops</TOPIC>
+<TOPIC>Mobile Internet protocol</TOPIC>
+<TOPIC>Mobile aware adaption</TOPIC>
+<TOPIC>Extending the client-server model to accommodate mobility</TOPIC>
+<TOPIC>Mobile data access : server data dissemination and client cache management</TOPIC>
+<TOPIC>Software package support for mobile and wireless computing</TOPIC>
+<TOPIC>The role of middleware and support tools</TOPIC>
+<TOPIC>Performance issues</TOPIC>
+<TOPIC>Emerging technologies</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the main characteristics of mobile IP and explain how differs from IP with  regard to mobility management and location management as well as performance.</OBJECTIVE>
+<OBJECTIVE>Illustrate (with home agents and foreign agents) how e-mail and other traffic is routed  using mobile IP.</OBJECTIVE>
+<OBJECTIVE>Implement a simple application that relies on mobile and wireless data  communications.</OBJECTIVE>
+<OBJECTIVE>Describe areas of current and emerging interest in wireless and mobile computing,  and assess the current capabilities, limitations, and near-term potential of each.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="PL">
+<AREA_NAME>Programming Languages</AREA_NAME><SHORT_NAME  SOURCE="trento">Prog. Lang.</SHORT_NAME>
+<DESCRIPTION>
+A programming language is a programmers principal interface with the computer. More
+than just knowing how to program in a single language, programmers need to understand
+the different styles of programming promoted by different languages. In their
+professional life, they will be working with many different languages and styles at once,
+and will encounter many different languages over the course of their careers.
+Understanding the variety of programming languages and the design tradeoffs between
+the different programming paradigms makes it much easier to master new languages
+quickly. Understanding the pragmatic aspects of programming languages also requires a
+basic knowledge of programming language translation and runtime features such as
+storage allocation.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="PL1" TYPE="CORE"><UNIT_NAME>Overview of programming languages</UNIT_NAME><SHORT_NAME  SOURCE="trento">Overview</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>History of programming languages</TOPIC>
+<TOPIC>Brief survey of programming paradigms</TOPIC>
+<TOPIC>Procedural languages</TOPIC>
+<TOPIC>Object-oriented languages</TOPIC>
+<TOPIC>Functional languages</TOPIC>
+<TOPIC>Declarative, non-algorithmic languages</TOPIC>
+<TOPIC>Scripting languages</TOPIC>
+<TOPIC>The effects of scale on programming methodology</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the evolution of programming languages illustrating how this history has  led to the paradigms available today.</OBJECTIVE>
+<OBJECTIVE>Identify at least one distinguishing characteristic for each of the programming  paradigms covered in this unit.</OBJECTIVE>
+<OBJECTIVE>Evaluate the tradeoffs between the different paradigms, considering such issues as  space efficiency, time efficiency (of both the computer and the programmer), safety,  and power of expression.</OBJECTIVE>
+<OBJECTIVE>Distinguish between programming-in-the-small and programming-in-the-large.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL2" TYPE="CORE"><UNIT_NAME>Virtual machines</UNIT_NAME><SHORT_NAME  SOURCE="trento">Virtual Machines</SHORT_NAME>
+<TIME>1</TIME>
+<TOPICS>
+<TOPIC>The concept of a virtual machine</TOPIC>
+<TOPIC>Hierarchy of virtual machines</TOPIC>
+<TOPIC>Intermediate languages</TOPIC>
+<TOPIC>Security issues arising from running code on an alien machine</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the importance and power of abstraction in the context of virtual machines.</OBJECTIVE>
+<OBJECTIVE>Explain the benefits of intermediate languages in the compilation process.</OBJECTIVE>
+<OBJECTIVE>Evaluate the tradeoffs in performance vs portability.</OBJECTIVE>
+<OBJECTIVE>Explain how executable programs can breach computer system security by accessing  disk files and memory.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL3" TYPE="CORE"><UNIT_NAME>Introduction to language translation</UNIT_NAME><SHORT_NAME  SOURCE="trento">Language Translation</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Comparison of interpreters and compilers</TOPIC>
+<TOPIC>Language translation phases (lexical analysis, parsing, code generation, optimization)</TOPIC>
+<TOPIC>Machine-dependent and machine-independent aspects of translation</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast compiled and interpreted execution models, outlining the  relative merits of each.</OBJECTIVE>
+<OBJECTIVE>Describe the phases of program translation from SOURCE code to executable code and  the files produced by these phases.</OBJECTIVE>
+<OBJECTIVE>Explain the differences between machine-dependent and machine-independent  translation and where these differences are evident in the translation process.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL4" TYPE="CORE"><UNIT_NAME>Declarations and types</UNIT_NAME><SHORT_NAME  SOURCE="trento">Types</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>The conception of types as a set of values with together with a set of operations</TOPIC>
+<TOPIC>Declaration models (binding, visibility, scope, and lifetime)</TOPIC>
+<TOPIC>Overview of type-checking</TOPIC>
+<TOPIC>Garbage collection</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the value of declaration models, especially with respect to programming-inthe-  large.</OBJECTIVE>
+<OBJECTIVE>Identify and describe the properties of a variable such as its associated address, value,  scope, persistence, and size.</OBJECTIVE>
+<OBJECTIVE>Discuss type incompatibility.</OBJECTIVE>
+<OBJECTIVE>Demonstrate different forms of binding, visibility, scoping, and lifetime management.</OBJECTIVE>
+<OBJECTIVE>Defend the importance of types and type-checking in providing abstraction and  safety.</OBJECTIVE>
+<OBJECTIVE>Evaluate tradeoffs in lifetime management (reference counting vs garbage  collection).
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL5" TYPE="CORE"><UNIT_NAME>Abstraction mechanisms</UNIT_NAME><SHORT_NAME  SOURCE="trento">Abstraction</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Procedures, functions, and iterators as abstraction mechanisms</TOPIC>
+<TOPIC>Parameterization mechanisms (reference vs value)</TOPIC>
+<TOPIC>Activation records and storage management</TOPIC>
+<TOPIC>Type parameters and parameterized types</TOPIC>
+<TOPIC>Modules in programming languages</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain how abstraction mechanisms support the creation of reusable software  components.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the difference between call-by-value and call-by-reference parameter  passing.</OBJECTIVE>
+<OBJECTIVE>Defend the importance of abstractions, especially with respect to programming-inthe-  large.</OBJECTIVE>
+<OBJECTIVE>Describe how the computer system uses activation records to manage program  modules and their data.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL6" TYPE="CORE"><UNIT_NAME>Object-oriented programming</UNIT_NAME><SHORT_NAME  SOURCE="trento">Object-Oriented</SHORT_NAME>
+<TIME>10</TIME>
+<TOPICS>
+<TOPIC>Object-oriented design</TOPIC>
+<TOPIC>Encapsulation and information-hiding</TOPIC>
+<TOPIC>Separation of behavior and implementation</TOPIC>
+<TOPIC>Classes and subclasses</TOPIC>
+<TOPIC>Inheritance (overriding, dynamic dispatch)</TOPIC>
+<TOPIC>Polymorphism (subtype polymorphism vs inheritance)</TOPIC>
+
+<TOPIC>Class hierarchies</TOPIC>
+<TOPIC>Collection classes and iteration protocols</TOPIC>
+<TOPIC>Internal representations of objects and method tables</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Justify the philosophy of object-oriented design and the concepts of encapsulation,  abstraction, inheritance, and polymorphism.</OBJECTIVE>
+<OBJECTIVE>Design, implement, test, and debug simple programs in an object-oriented  programming language.</OBJECTIVE>
+<OBJECTIVE>Describe how the class mechanism supports encapsulation and information hiding.</OBJECTIVE>
+<OBJECTIVE>Design, implement, and test the implementation of is-a relationships among objects  using a class hierarchy and inheritance.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the notions of overloading and overriding methods in an  object-oriented language.</OBJECTIVE>
+<OBJECTIVE>Explain the relationship between the static structure of the class and the dynamic  structure of the instances of the class.</OBJECTIVE>
+<OBJECTIVE>Describe how iterators access the elements of a container.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL7" TYPE="ELECTIVE"><UNIT_NAME>Functional programming</UNIT_NAME><SHORT_NAME  SOURCE="trento">Functional</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Overview and motivation of functional languages</TOPIC>
+<TOPIC>Recursion over lists, natural numbers, trees, and other recursively-defined data</TOPIC>
+<TOPIC>Pragmatics (debugging by divide and conquer persistency of data structures)</TOPIC>
+<TOPIC>Amortized efficiency for functional data structures</TOPIC>
+<TOPIC>Closures and uses of functions as data (infinite sets, streams)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Outline the strengths and weaknesses of the functional programming paradigm.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug programs using the functional paradigm.</OBJECTIVE>
+<OBJECTIVE>Explain the use of functions as data, including the concept of closures.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL8" TYPE="ELECTIVE"><UNIT_NAME>Language translation systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Translation</SHORT_NAME>
+<TOPICS>
+<TOPIC>Application of regular expressions in lexical scanners</TOPIC>
+<TOPIC>Parsing (concrete and abstract syntax, abstract syntax trees)</TOPIC>
+<TOPIC>Application of context-free grammars in table-driven and recursive-descent parsing</TOPIC>
+<TOPIC>Symbol table management</TOPIC>
+<TOPIC>Code generation by tree walking</TOPIC>
+<TOPIC>Architecture-specific operations : instruction selection and register allocation</TOPIC>
+<TOPIC>Optimization techniques</TOPIC>
+<TOPIC>The use of tools in support of the translation process and the advantages thereof</TOPIC>
+<TOPIC>Program libraries and separate compilation</TOPIC>
+<TOPIC>Building syntax-directed tools</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the steps and algorithms used by language translators.</OBJECTIVE>
+<OBJECTIVE>Recognize the underlying formal models such as finite state automata, push-down  automata and their connection to language definition through regular expressions and  grammars.</OBJECTIVE>
+<OBJECTIVE>Discuss the effectiveness of optimization.</OBJECTIVE>
+<OBJECTIVE>Explain the impact of a separate compilation facility and the existence of program  libraries on the compilation process.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL9" TYPE="ELECTIVE"><UNIT_NAME>Type systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Type Systems</SHORT_NAME>
+<TOPICS>
+<TOPIC>Data type as set of values with set of operations</TOPIC>
+<TOPIC>Data types</TOPIC>
+<TOPIC>Elementary types</TOPIC>
+<TOPIC>Product and coproduct types</TOPIC>
+<TOPIC>Algebraic types</TOPIC>
+<TOPIC>Recursive types</TOPIC>
+<TOPIC>Arrow (function) types</TOPIC>
+<TOPIC>Parameterized types</TOPIC>
+<TOPIC>Type-checking models</TOPIC>
+<TOPIC>Semantic models of user-defined types</TOPIC>
+<TOPIC>Type abbreviations</TOPIC>
+<TOPIC>Abstract data types</TOPIC>
+<TOPIC>Type equality</TOPIC>
+<TOPIC>Parametric polymorphism</TOPIC>
+<TOPIC>Subtype polymorphism</TOPIC>
+<TOPIC>Type-checking algorithms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Formalize the notion of typing.</OBJECTIVE>
+<OBJECTIVE>Describe each of the elementary data types.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of an abstract data type.</OBJECTIVE>
+<OBJECTIVE>Recognize the importance of typing for abstraction and safety.</OBJECTIVE>
+<OBJECTIVE>Differentiate between static and dynamic typing.</OBJECTIVE>
+<OBJECTIVE>Differentiate between type declarations and type inference.</OBJECTIVE>
+<OBJECTIVE>Evaluate languages with regard to typing.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL10" TYPE="ELECTIVE"><UNIT_NAME>Programming language semantics</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Semantics</SHORT_NAME>
+<TOPICS>
+<TOPIC>Informal semantics</TOPIC>
+<TOPIC>Overview of formal semantics</TOPIC>
+<TOPIC>Denotational semantics</TOPIC>
+<TOPIC>Axiomatic semantics</TOPIC>
+<TOPIC>Operational semantics</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the importance of formal semantics.</OBJECTIVE>
+<OBJECTIVE>Differentiate between formal and informal semantics.</OBJECTIVE>
+<OBJECTIVE>Describe the different approaches to formal semantics.</OBJECTIVE>
+<OBJECTIVE>Evaluate the different approaches to formal semantics.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="PL11" TYPE="ELECTIVE"><UNIT_NAME>Programming language design</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Language Design</SHORT_NAME>
+<TOPICS>
+<TOPIC>General principles of language design</TOPIC>
+<TOPIC>Design goals</TOPIC>
+<TOPIC>Typing regimes</TOPIC>
+<TOPIC>Data structure models</TOPIC>
+<TOPIC>Control structure models</TOPIC>
+<TOPIC>Abstraction mechanisms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Evaluate the impact of different typing regimes on language design, language usage,  and the translation process.</OBJECTIVE>
+<OBJECTIVE>Explain the role of different abstraction mechanisms in the creation of user-defined  facilities.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="HC">
+<AREA_NAME>Human-Computer Interaction</AREA_NAME><SHORT_NAME  SOURCE="trento">HCI</SHORT_NAME>
+<DESCRIPTION>
+This list of topics is intended as an introduction to human-computer interaction for
+computer science majors. Emphasis will be placed on understanding human behavior
+with interactive objects, knowing how to develop and evaluate interactive software using
+a human-centered approach, and general knowledge of HCI design issues with multiple
+
+types of interactive software. Units HC1 (Foundations of Human-Computer Interaction)
+and HC2 (Building a simple graphical user interface) will be required for all majors,
+possibly as modules in the introductory courses. The remaining units will most likely be
+integrated into one or two elective courses at the junior or senior level.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="HC1" TYPE="CORE"><UNIT_NAME>Foundations of human-computer interaction</UNIT_NAME><SHORT_NAME  SOURCE="trento">HCI</SHORT_NAME>
+<TIME>6</TIME>
+<TOPICS>
+<TOPIC>Motivation : Why care about people</TOPIC>
+<TOPIC>Contexts for HCI (tools, web hypermedia, communication)</TOPIC>
+<TOPIC>Human-centered development and evaluation</TOPIC>
+<TOPIC>Human performance models  : perception, movement, and cognition</TOPIC>
+<TOPIC>Human performance models  : culture, communication, and organizations</TOPIC>
+<TOPIC>Accommodating human diversity</TOPIC>
+<TOPIC>Principles of good design and good designers engineering tradeoffs</TOPIC>
+<TOPIC>Introduction to usability testing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the reasons for human-centered software development.</OBJECTIVE>
+<OBJECTIVE>Summarize the basic science of psychological and social interaction.</OBJECTIVE>
+<OBJECTIVE>Differentiate between the role of hypotheses and experimental results vs correlations.</OBJECTIVE>
+<OBJECTIVE>Develop a conceptual vocabulary for analyzing human interaction with software  affordance, conceptual model, feedback, and so forth.</OBJECTIVE>
+<OBJECTIVE>Distinguish between the different interpretations that a given icon, symbol, word, or  color can have in (a) two different human cultures and (b) in a culture and one of its  subcultures.</OBJECTIVE>
+<OBJECTIVE>In what ways might the design of a computer system or application succeed or fail in  terms of respecting human diversity.</OBJECTIVE>
+<OBJECTIVE>Create and conduct a simple usability test for an existing software application.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC2" TYPE="CORE"><UNIT_NAME>Building a simple graphical user interface</UNIT_NAME><SHORT_NAME  SOURCE="trento">GUI Dev.</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Principles of graphical user interfaces (GUIs)</TOPIC>
+<TOPIC>GUI toolkits</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Identify several fundamental principles for effective GUI design.</OBJECTIVE>
+<OBJECTIVE>Use a GUI toolkit to create a simple application that supports a graphical user  interface.</OBJECTIVE>
+<OBJECTIVE>Illustrate the effect of fundamental design principles on the structure of a graphical  user interface.</OBJECTIVE>
+<OBJECTIVE>Conduct a simple usability test for each instance and compare the results.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC3" TYPE="ELECTIVE"><UNIT_NAME>Human-centered software evaluation</UNIT_NAME><SHORT_NAME  SOURCE="trento">HCI Evaluation</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Setting goals for evaluation</TOPIC>
+<TOPIC>Evaluation without users :  walkthroughs, KLM, guidelines, and standards</TOPIC>
+<TOPIC>Evaluation with users : usability testing, interview, survey, experiment</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss evaluation criteria : learning, task time and completion, acceptability.</OBJECTIVE>
+<OBJECTIVE>Conduct a walkthrough and a Keystroke Level Model (KLM) analysis.</OBJECTIVE>
+<OBJECTIVE>Summarize the major guidelines and standards.</OBJECTIVE>
+<OBJECTIVE>Conduct a usability test, an interview, and a survey.</OBJECTIVE>
+<OBJECTIVE>Compare a usability test to a controlled experiment.</OBJECTIVE>
+<OBJECTIVE>Evaluate an existing interactive system with human-centered criteria and a usability  test.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC4" TYPE="ELECTIVE"><UNIT_NAME>Human-centered software development</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">HCI Development</SHORT_NAME>
+<TOPICS>
+<TOPIC>Approaches, characteristics, and overview of process</TOPIC>
+<TOPIC>Functionality and usability: task analysis, interviews, surveys</TOPIC>
+<TOPIC>Specifying interaction and presentation</TOPIC>
+<TOPIC>Prototyping techniques and tools</TOPIC>
+<TOPIC>Paper storyboards</TOPIC>
+<TOPIC>Inheritance and dynamic dispatch</TOPIC>
+<TOPIC>Prototyping languages and GUI builders</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the basic types and features of human-centered development.</OBJECTIVE>
+<OBJECTIVE>Compare human-centered development to traditional software engineering methods.</OBJECTIVE>
+<OBJECTIVE>State three functional requirements and three usability requirements.</OBJECTIVE>
+<OBJECTIVE>Specify an interactive object with transition networks, OO design, or scenario  descriptions.</OBJECTIVE>
+<OBJECTIVE>Discuss the pros and cons of development with paper and software prototypes.
+
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC5" TYPE="ELECTIVE"><UNIT_NAME>Graphical user-interface design</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">GUI Design</SHORT_NAME>
+<TOPICS>
+<TOPIC>Choosing interaction styles and interaction techniques</TOPIC>
+<TOPIC>HCI aspects of common widgets</TOPIC>
+<TOPIC>HCI aspects of screen design :layout, color, fonts, labeling</TOPIC>
+<TOPIC>Handling human failure</TOPIC>
+<TOPIC>Beyond simple screen design : visualization, representation, metaphor</TOPIC>
+<TOPIC>Multi-modal interaction : graphics, sound, and haptics</TOPIC>
+<TOPIC>3D interaction and virtual reality</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize common interaction styles.</OBJECTIVE>
+<OBJECTIVE>Explain good design principles of each of the following common widgets sequenced  screen presentations simple error-trap dialog a user manual.</OBJECTIVE>
+<OBJECTIVE>Design, prototype, and evaluate a simple</OBJECTIVE>
+<OBJECTIVE>D GUI illustrating knowledge of the  concepts taught in HC</OBJECTIVE>
+<OBJECTIVE>and HC</OBJECTIVE>
+<OBJECTIVE></OBJECTIVE>
+<OBJECTIVE>Discuss the challenges that exist in moving from</OBJECTIVE>
+<OBJECTIVE>D to</OBJECTIVE>
+<OBJECTIVE>D interaction.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC6" TYPE="ELECTIVE"><UNIT_NAME>Graphical user-interface programming</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">GUI Programming</SHORT_NAME>
+<TOPICS>
+<TOPIC>UIMS, dialogue independence and levels of analysis, Seeheim model</TOPIC>
+<TOPIC>Widget classes</TOPIC>
+<TOPIC>Event management and user interaction</TOPIC>
+<TOPIC>Geometry management</TOPIC>
+<TOPIC>GUI builders and UI programming environments</TOPIC>
+<TOPIC>Cross-platform design</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Differentiate between the responsibilities of the UIMS and the application.</OBJECTIVE>
+<OBJECTIVE>Differentiate between kernel-based and client-server models for the UI.</OBJECTIVE>
+<OBJECTIVE>Compare the event-driven paradigm with more traditional procedural control for the  UI.</OBJECTIVE>
+<OBJECTIVE>Describe aggregation of widgets and constraint-based geometry management.</OBJECTIVE>
+<OBJECTIVE>Explain callbacks and their role in GUI builders.</OBJECTIVE>
+<OBJECTIVE>Identify at least three differences common in cross-platform UI design.</OBJECTIVE>
+<OBJECTIVE>Identify as many commonalities as you can that are found in UIs across different  platforms.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC7" TYPE="ELECTIVE"><UNIT_NAME>HCI aspects of multimedia systems</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Multimedia</SHORT_NAME>
+<TOPICS>
+<TOPIC>Categorization and architectures of information : hierarchies, hypermedia</TOPIC>
+<TOPIC>Information retrieval and human performance</TOPIC>
+<TOPIC>Web search</TOPIC>
+<TOPIC>Usability of database query languages</TOPIC>
+<TOPIC>Graphics</TOPIC>
+<TOPIC>Sound</TOPIC>
+<TOPIC>HCI design of multimedia information systems</TOPIC>
+<TOPIC>Speech recognition and natural language processing</TOPIC>
+<TOPIC>Information appliances and mobile computing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss how information retrieval differs from transaction processing.</OBJECTIVE>
+<OBJECTIVE>Explain how the organization of information supports retrieval.</OBJECTIVE>
+<OBJECTIVE>Describe the major usability problems with database query languages.</OBJECTIVE>
+<OBJECTIVE>Explain the current state of speech recognition technology in particular and natural  language processing in general.</OBJECTIVE>
+<OBJECTIVE>Design, prototype, and evaluate a simple Multimedia Information System illustrating  knowledge of the concepts taught in HC</OBJECTIVE>
+<OBJECTIVE>, HC</OBJECTIVE>
+<OBJECTIVE>, and HC</OBJECTIVE>
+
+<OBJECTIVE>
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="HC8" TYPE="ELECTIVE"><UNIT_NAME>HCI aspects of collaboration and communication</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Collaboration</SHORT_NAME>
+<TOPICS>
+<TOPIC>Groupware to support specialized tasks : document preparation, multi-player games</TOPIC>
+<TOPIC>Asynchronous group communication : e-mail, bulletin boards</TOPIC>
+<TOPIC>Synchronous group communication : chat rooms, conferencing</TOPIC>
+<TOPIC>Online communities : MUDs/MOOs</TOPIC>
+<TOPIC>Software characters and intelligent agents</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare the HCI issues in individual interaction with group interaction.</OBJECTIVE>
+<OBJECTIVE>Discuss several issues of social concern raised by collaborative software.</OBJECTIVE>
+<OBJECTIVE>Discuss the HCI issues in software that embodies human intention.</OBJECTIVE>
+<OBJECTIVE>Describe the difference between synchronous and asynchronous communication.</OBJECTIVE>
+<OBJECTIVE>Design, prototype, and evaluate a simple groupware or group communication  application illustrating knowledge of the concepts taught in HC</OBJECTIVE>
+<OBJECTIVE>, HC</OBJECTIVE>
+<OBJECTIVE>, and HC</OBJECTIVE>
+<OBJECTIVE></OBJECTIVE>
+<OBJECTIVE>Participate in a team project for which some interaction is face-to-face and other  interaction occurs via a mediating software environment.</OBJECTIVE>
+<OBJECTIVE>Describe the similarities and differences between face-to-face and software-mediated  collaboration.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="GV">
+<AREA_NAME>Graphics and Visual Computing</AREA_NAME><SHORT_NAME  SOURCE="trento">Graphics</SHORT_NAME>
+<DESCRIPTION>
+The area encompassed by Graphics and Visual Computing (GV) is divided into four
+interrelated fields
+Computer graphics. Computer graphics is the art and science of communicating
+information using images that are generated and presented through computation. This
+requires (a) the design and construction of models that represent information in ways
+that support the creation and viewing of images, (b) the design of devices and
+techniques through which the person may interact with the model or the view, (c) the
+creation of techniques for rendering the model, and (d) the design of ways the images
+may be preserved The goal of computer graphics is to engage the persons visual
+centers alongside other cognitive centers in understanding.
+Visualization. The field of visualization seeks to determine and present underlying
+correlated structures and relationships in both scientific (computational and medical
+sciences) and more abstract datasets. The prime objective of the presentation should
+be to communicate the information in a dataset so as to enhance understanding.
+Although current techniques of visualization exploit visual abilities of humans, other
+sensory modalities, including sound and haptics (touch), are also being considered to
+aid the discovery process of information.
+Virtual reality. Virtual reality (VR) enables users to experience a three-dimensional
+environment generated using computer graphics, and perhaps other sensory modalities,
+to provide an environment for enhanced interaction between a human user and a
+computer-created world.
+Computer vision. The goal of computer vision (CV) is to deduce the properties and
+structure of the three-dimensional world from one or more two-dimensional images.
+The understanding and practice of computer vision depends upon core concepts in
+computing, but also relates strongly to the disciplines of physics, mathematics, and
+psychology.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="GV1" TYPE="CORE"><UNIT_NAME>Fundamental techniques in graphics</UNIT_NAME><SHORT_NAME  SOURCE="trento">Graphics</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Hierarchy of graphics software</TOPIC>
+<TOPIC>Using a graphics API</TOPIC>
+<TOPIC>Simple color models (RGB, HSB, CMYK)</TOPIC>
+<TOPIC>Homogeneous coordinates</TOPIC>
+<TOPIC>Affine transformations (scaling, rotation, translation)</TOPIC>
+<TOPIC>Viewing transformation</TOPIC>
+<TOPIC>Clipping</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Distinguish the capabilities of different levels of graphics software and describe the  appropriateness of each.</OBJECTIVE>
+<OBJECTIVE>Create images using a standard graphics API.</OBJECTIVE>
+<OBJECTIVE>Use the facilities provided by a standard API to express basic transformations such as  scaling, rotation, and translation.</OBJECTIVE>
+<OBJECTIVE>Implement simple procedures that perform transformation and clipping operations on  a simple 2-dimensional image.</OBJECTIVE>
+<OBJECTIVE>Discuss the 3-dimensional coordinate system and the changes required to extend 2D  transformation operations to handle transformations in 3D
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV2" TYPE="CORE"><UNIT_NAME>Graphic systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Graphic Sys.</SHORT_NAME>
+<TIME>1</TIME>
+<TOPICS>
+<TOPIC>Raster and vector graphics systems</TOPIC>
+<TOPIC>Video display devices</TOPIC>
+<TOPIC>Physical and logical input devices</TOPIC>
+<TOPIC>Issues facing the developer of graphical systems</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the appropriateness of graphics architectures for given applications.</OBJECTIVE>
+<OBJECTIVE>Explain the function of various input devices.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the techniques of raster graphics and vector graphics.</OBJECTIVE>
+<OBJECTIVE>Use current hardware and software for creating and displaying graphics.</OBJECTIVE>
+<OBJECTIVE>Discuss the expanded capabilities of emerging hardware and software for creating and  displaying graphics.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV3" TYPE="ELECTIVE"><UNIT_NAME>Graphic communication</UNIT_NAME><SHORT_NAME  SOURCE="trento">Communication</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Psychodynamics of color and interactions among colors</TOPIC>
+<TOPIC>Modifications of color for vision deficiency</TOPIC>
+<TOPIC>Cultural meaning of different colors</TOPIC>
+<TOPIC>Use of effective pseudo-color palettes for images for specific audiences</TOPIC>
+<TOPIC>Structuring a view for effective understanding</TOPIC>
+<TOPIC>Image modifications for effective video and hardcopy</TOPIC>
+<TOPIC>Use of legends to key information to color or other visual data</TOPIC>
+<TOPIC>Use of text in images to present context and background information</TOPIC>
+<TOPIC>Visual user feedback on graphical operations</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the value of using colors and pseudo-colors.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the ability to create effective video and hardcopy images.</OBJECTIVE>
+<OBJECTIVE>Identify effective and ineffective examples of communication using graphics.</OBJECTIVE>
+<OBJECTIVE>Create effective examples of graphic communication, making appropriate use of  color, legends, text, and or video.</OBJECTIVE>
+<OBJECTIVE>Create two effective examples that communicate the same content one designed for  hardcopy presentation and the other designed for online presentation.</OBJECTIVE>
+<OBJECTIVE>Discuss the differences in design criteria for hardcopy and online presentations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV4" TYPE="ELECTIVE"><UNIT_NAME>Geometric modeling</UNIT_NAME><TIME/><SHORT_NAME  SOURCE="trento">Geometric Modeling</SHORT_NAME>
+<TOPICS>
+<TOPIC>Polygonal representation of 3D objects</TOPIC>
+<TOPIC>Parametric polynomial curves and surfaces</TOPIC>
+<TOPIC>Constructive Solid Geometry (CSG) representation</TOPIC>
+<TOPIC>Implicit representation of curves and surfaces</TOPIC>
+<TOPIC>Spatial subdivision techniques</TOPIC>
+<TOPIC>Procedural models</TOPIC>
+<TOPIC>Deformable models</TOPIC>
+<TOPIC>Subdivision surfaces</TOPIC>
+<TOPIC>Multiresolution modeling</TOPIC>
+<TOPIC>Reconstruction</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Create simple polyhedral models by surface tessellation.</OBJECTIVE>
+<OBJECTIVE>Construct CSG models from simple primitives, such as cubes and quadric surfaces.</OBJECTIVE>
+<OBJECTIVE>Generate a mesh representation from an implicit surface.</OBJECTIVE>
+<OBJECTIVE>Generate a fractal model or terrain using a procedural method.</OBJECTIVE>
+<OBJECTIVE>Generate a mesh from data points acquired with a laser scanner.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV5" TYPE="ELECTIVE"><UNIT_NAME>Basic rendering</UNIT_NAME><SHORT_NAME  SOURCE="trento">Rendering</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Line generation algorithms (Bresenham)</TOPIC>
+<TOPIC>Font generation outline vs bitmap</TOPIC>
+<TOPIC>Light-SOURCE and material properties</TOPIC>
+<TOPIC>Ambient, diffuse, and specular reflections</TOPIC>
+<TOPIC>Phong reflection model</TOPIC>
+<TOPIC>Rendering of a polygonal surface flat, Gouraud, and Phong shading</TOPIC>
+<TOPIC>Texture mapping, bump texture, environment map</TOPIC>
+<TOPIC>Introduction to ray tracing</TOPIC>
+<TOPIC>Image synthesis, sampling techniques, and anti-aliasing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the operation of the Bresenham algorithm for rendering a line on a pixel-based  display.</OBJECTIVE>
+<OBJECTIVE>Explain the concept and applications of each of these techniques.</OBJECTIVE>
+<OBJECTIVE>Demonstrate each of these techniques by creating an image using a standard API.</OBJECTIVE>
+<OBJECTIVE>Describe how a graphic image has been created.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV6" TYPE="ELECTIVE"><UNIT_NAME>Advanced rendering</UNIT_NAME><SHORT_NAME  SOURCE="trento">Adv. Rendering</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Transport equations</TOPIC>
+<TOPIC>Ray tracing algorithms</TOPIC>
+<TOPIC>Photon tracing</TOPIC>
+<TOPIC>Radiosity for global illumination computation, form factors</TOPIC>
+<TOPIC>Efficient approaches to global illumination</TOPIC>
+<TOPIC>Monte Carlo methods for global illumination</TOPIC>
+<TOPIC>Image-based rendering, panorama viewing, plenoptic function modeling</TOPIC>
+<TOPIC>Rendering of complex natural phenomenon</TOPIC>
+<TOPIC>Non-photorealistic rendering</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe several transport equations in detail, noting all comprehensive effects.</OBJECTIVE>
+<OBJECTIVE>Describe efficient algorithms to compute radiosity and explain the tradeoffs of  accuracy and algorithmic performance.</OBJECTIVE>
+<OBJECTIVE>Describe the impact of meshing schemes.</OBJECTIVE>
+<OBJECTIVE>Explain image-based rendering techniques, light fields, and associated topics.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV7" TYPE="ELECTIVE"><UNIT_NAME>Advanced techniques</UNIT_NAME><SHORT_NAME  SOURCE="trento">Adv. techniques</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Color quantization</TOPIC>
+<TOPIC>Scan conversion of 2D primitive, forward differencing</TOPIC>
+<TOPIC>Tessellation of curved surfaces</TOPIC>
+<TOPIC>Hidden surface removal methods</TOPIC>
+<TOPIC>Z-buffer and frame buffer, color channels (a channel for opacity)</TOPIC>
+<TOPIC>Advanced geometric modeling techniques</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the techniques identified in this section.</OBJECTIVE>
+<OBJECTIVE>Explain how to recognize the graphics techniques used to create a particular image.</OBJECTIVE>
+<OBJECTIVE>Implement any of the specified graphics techniques using a primitive graphics system  at the individual pixel level.</OBJECTIVE>
+<OBJECTIVE>Use common animation software to construct simple organic forms using metaball  and skeleton.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV8" TYPE="ELECTIVE"><UNIT_NAME>Computer animation</UNIT_NAME><SHORT_NAME  SOURCE="trento">Animation</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Key-frame animation</TOPIC>
+<TOPIC>Camera animation</TOPIC>
+<TOPIC>Scripting system</TOPIC>
+<TOPIC>Animation of articulated structures : inverse kinematics</TOPIC>
+<TOPIC>Motion capture</TOPIC>
+<TOPIC>Procedural animation</TOPIC>
+<TOPIC>Deformation</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the spline interpolation method for producing in-between positions and  orientations.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast several technologies for motion capture.</OBJECTIVE>
+<OBJECTIVE>Use the particle function in common animation software to generate a simple  animation, such as fireworks.</OBJECTIVE>
+<OBJECTIVE>Use free-form deformation techniques to create various deformations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV9" TYPE="ELECTIVE"><UNIT_NAME>Visualization</UNIT_NAME><SHORT_NAME  SOURCE="trento">Visualization</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Basic viewing and interrogation functions for visualization</TOPIC>
+<TOPIC>Visualization of vector fields, tensors, and flow data</TOPIC>
+<TOPIC>Visualization of scalar field or height field: isosurface by the marching cube method</TOPIC>
+<TOPIC>Direct volume data rendering : ray-casting, transfer functions, segmentation, hardware</TOPIC>
+<TOPIC>Information visualization : projection and parallel-coordinates methods</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the basic algorithms behind scalar and vector visualization.</OBJECTIVE>
+<OBJECTIVE>Describe the tradeoffs of the algorithms in terms of accuracy and performance.</OBJECTIVE>
+<OBJECTIVE>Employ suitable theory from signal processing and numerical analysis to explain the  effects of visualization operations.</OBJECTIVE>
+<OBJECTIVE>Describe the impact of presentation and user interaction on exploration.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV10" TYPE="ELECTIVE"><UNIT_NAME>Virtual reality</UNIT_NAME><SHORT_NAME  SOURCE="trento">VR</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Stereoscopic display</TOPIC>
+<TOPIC>Force feedback simulation, haptic devices</TOPIC>
+<TOPIC>Viewer tracking</TOPIC>
+<TOPIC>Collision detection</TOPIC>
+<TOPIC>Visibility computation</TOPIC>
+<TOPIC>Time-critical rendering, multiple levels of details (LOD)</TOPIC>
+<TOPIC>Image-base VR system</TOPIC>
+<TOPIC>Distributed VR, collaboration over computer network</TOPIC>
+<TOPIC>Interactive modeling</TOPIC>
+<TOPIC>User interface issues</TOPIC>
+<TOPIC>Applications in medicine, simulation, and training</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the optical model realized by a computer graphics system to synthesize  stereoscopic view.</OBJECTIVE>
+<OBJECTIVE>Describe the principles of different viewer tracking technologies.</OBJECTIVE>
+<OBJECTIVE>Explain the principles of efficient collision detection algorithms for convex  polyhedra.</OBJECTIVE>
+<OBJECTIVE>Describe the differences between geometry- and image-based virtual reality.</OBJECTIVE>
+<OBJECTIVE>Describe the issues of user action synchronization and data consistency in a  networked environment.</OBJECTIVE>
+<OBJECTIVE>Determine the basic requirements on interface, hardware, and software configurations  of a VR system for a specified application.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="GV11" TYPE="ELECTIVE"><UNIT_NAME>Computer vision</UNIT_NAME><SHORT_NAME  SOURCE="trento">Comp. Vision</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Image acquisition</TOPIC>
+<TOPIC>The digital image and its properties</TOPIC>
+<TOPIC>Image preprocessing</TOPIC>
+<TOPIC>Segmentation (thresholding, edge- and region-based segmentation)</TOPIC>
+<TOPIC>Shape representation and object recognition</TOPIC>
+<TOPIC>Motion analysis</TOPIC>
+<TOPIC>Case studies (object recognition, object tracking)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the image formation process.</OBJECTIVE>
+<OBJECTIVE>Explain the advantages of two and more cameras, stereo vision.</OBJECTIVE>
+<OBJECTIVE>Explain various segmentation approaches, along with their characteristics,  differences, strengths, and weaknesses.</OBJECTIVE>
+<OBJECTIVE>Describe object recognition based on contour- and region-based shape  representations.</OBJECTIVE>
+<OBJECTIVE>Explain differential motion analysis methods.</OBJECTIVE>
+<OBJECTIVE>Describe the differences in object tracking methods.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="IS">
+<AREA_NAME>Intelligent Systems</AREA_NAME><SHORT_NAME  SOURCE="trento">Intel. Sys.</SHORT_NAME>
+<DESCRIPTION>
+The field of artificial intelligence (AI) is concerned with the design and analysis of
+autonomous agents. These are software systems and-or physical machines, with sensors
+and actuators, embodied for example within a robot or an autonomous spacecraft. An
+intelligent system has to perceive its environment, to act rationally towards its assigned
+tasks, to interact with other agents and with human beings.
+These capabilities are covered by topics such as computer vision, planning and acting,
+robotics, multi-agents systems, speech recognition, and natural language understanding.
+They rely on a broad set of general and specialized knowledge representations and
+reasoning mechanisms, on problem solving and search algorithms, and on machine
+learning techniques.
+Furthermore, artificial intelligence provides a set of tools for solving problems that are
+difficult or impractical to solve with other methods. These include heuristic search and
+planning algorithms, formalisms for knowledge representation and reasoning, machine
+learning techniques, and methods applicable to sensing and action problems such as
+speech and language understanding, computer vision, and robotics, among others. The
+student needs to be able to determine when an AI approach is appropriate for a given
+problem, and to be able to select and implement a suitable AI method.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="IS1" TYPE="CORE"><UNIT_NAME>Fundamental issues in intelligent systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Issues</SHORT_NAME>
+<TIME>1</TIME>
+<TOPICS>
+<TOPIC>History of artificial intelligence</TOPIC>
+<TOPIC>Philosophical questions</TOPIC>
+<TOPIC>The Turing test</TOPIC>
+<TOPIC>Searle's "Chinese Room" thought experiment</TOPIC>
+<TOPIC>Ethical issues in AI</TOPIC>
+<TOPIC>Fundamental definitions</TOPIC>
+<TOPIC>Optimal vs human-like reasoning</TOPIC>
+<TOPIC>Optimal vs human-like behavior</TOPIC>
+<TOPIC>Philosophical questions</TOPIC>
+<TOPIC>Modeling the world</TOPIC>
+<TOPIC>The role of heuristics</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the Turing test and the Chinese Room thought experiment.</OBJECTIVE>
+<OBJECTIVE>Differentiate the concepts of optimal reasoning and human-like reasoning.</OBJECTIVE>
+<OBJECTIVE>Differentiate the concepts of optimal behavior and human-like behavior.</OBJECTIVE>
+<OBJECTIVE>List examples of intelligent systems that depend on models of the world.</OBJECTIVE>
+<OBJECTIVE>Describe the role of heuristics and the need for tradeoffs between optimality and  efficiency.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS2" TYPE="CORE"><UNIT_NAME>Search and constraint satisfaction</UNIT_NAME><SHORT_NAME  SOURCE="trento">Search</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>Problem spaces</TOPIC>
+<TOPIC>Brute-force search (breadth-first, depth-first, depth-first with iterative deepening)</TOPIC>
+<TOPIC>Best-first search (generic best-first, Dijkstra's algorithm, A*, admissibility of A*)</TOPIC>
+<TOPIC>Two-player games (minimax search, alpha-beta pruning)</TOPIC>
+<TOPIC>Constraint satisfaction (backtracking and local search methods)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Formulate an efficient problem space for a problem expressed in English by  expressing that problem space in terms of states, operators, an initial state, and a  description of a goal state.</OBJECTIVE>
+<OBJECTIVE>Describe the problem of combinatorial explosion and its consequences.</OBJECTIVE>
+<OBJECTIVE>Select an appropriate brute-force search algorithm for a problem, implement it, and  characterize its time and space complexities.</OBJECTIVE>
+<OBJECTIVE>Select an appropriate heuristic search algorithm for a problem and implement it by  designing the necessary heuristic evaluation function.</OBJECTIVE>
+<OBJECTIVE>Describe under what conditions heuristic algorithms guarantee optimal solution.</OBJECTIVE>
+<OBJECTIVE>Implement minimax search with alpha-beta pruning for some two-player game.</OBJECTIVE>
+<OBJECTIVE>Formulate a problem specified in English as a constraint-satisfaction problem and  implement it using a chronological backtracking algorithm.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS3" TYPE="CORE"><UNIT_NAME>Knowledge representation and reasoning</UNIT_NAME><SHORT_NAME  SOURCE="trento">Knowledge Representation</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Review of propositional and predicate logic</TOPIC>
+<TOPIC>Resolution and theorem proving</TOPIC>
+<TOPIC>Non-monotonic inference</TOPIC>
+<TOPIC>Probabilistic reasoning</TOPIC>
+<TOPIC>Bayes theorem</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the operation of the resolution technique for theorem proving.</OBJECTIVE>
+<OBJECTIVE>Explain the distinction between monotonic and non-monotonic inference.</OBJECTIVE>
+<OBJECTIVE>Discuss the advantages and shortcomings of probabilistic reasoning.</OBJECTIVE>
+<OBJECTIVE>Apply Bayes theorem to determine conditional probabilities.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS4" TYPE="ELECTIVE"><UNIT_NAME>Advanced search</UNIT_NAME><SHORT_NAME  SOURCE="trento">Advanced Search</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Genetic algorithms</TOPIC>
+<TOPIC>Simulated annealing</TOPIC>
+<TOPIC>Local search</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain what genetic algorithms are and contrast their effectiveness with the classic  problem-solving and search techniques.</OBJECTIVE>
+<OBJECTIVE>Explain how simulated annealing can be used to reduce search complexity and  contrast its operation with classic search techniques.</OBJECTIVE>
+<OBJECTIVE>Apply local search techniques to a classic domain.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS5" TYPE="ELECTIVE"><UNIT_NAME>Advanced knowledge representation and reasoning</UNIT_NAME><SHORT_NAME  SOURCE="trento">Knowledge Rep.</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Structured representation</TOPIC>
+<TOPIC>Frames and objects</TOPIC>
+<TOPIC>Description logics</TOPIC>
+<TOPIC>Inheritance systems</TOPIC>
+<TOPIC>Non-monotonic reasoning</TOPIC>
+<TOPIC>Non-classical logics</TOPIC>
+<TOPIC>Default reasoning</TOPIC>
+<TOPIC>Belief revision</TOPIC>
+<TOPIC>Preference logics</TOPIC>
+<TOPIC>Integration of knowledge SOURCEs</TOPIC>
+<TOPIC>Aggregation of conflicting belief</TOPIC>
+<TOPIC>Reasoning on action and change</TOPIC>
+<TOPIC>Situation calculus</TOPIC>
+<TOPIC>Event calculus</TOPIC>
+<TOPIC>Ramification problems</TOPIC>
+<TOPIC>Temporal and spatial reasoning</TOPIC>
+<TOPIC>Uncertainty</TOPIC>
+<TOPIC>Probabilistic reasoning</TOPIC>
+<TOPIC>Bayesian nets</TOPIC>
+<TOPIC>Fuzzy sets and possibility theory</TOPIC>
+<TOPIC>Decision theory</TOPIC>
+<TOPIC>Knowledge representation for diagnosis, qualitative representation</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast the most common models used for structured knowledge  representation, highlighting their strengths and weaknesses.</OBJECTIVE>
+<OBJECTIVE>Characterize the components of non-monotonic reasoning and its usefulness as a  representational mechanisms for belief systems.</OBJECTIVE>
+<OBJECTIVE>Apply situation and event calculus to problems of action and change.</OBJECTIVE>
+<OBJECTIVE>Articulate the distinction between temporal and spatial reasoning, explaining how  they interrelate.</OBJECTIVE>
+<OBJECTIVE>Describe and contrast the basic techniques for representing uncertainty.</OBJECTIVE>
+<OBJECTIVE>Describe and contrast the basic techniques for diagnosis and qualitative  representation.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS6" TYPE="ELECTIVE"><UNIT_NAME>Agents</UNIT_NAME><SHORT_NAME  SOURCE="trento">Agents</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Definition of agents</TOPIC>
+<TOPIC>Successful applications and state-of-the-art agent-based systems</TOPIC>
+<TOPIC>Agent architectures</TOPIC>
+<TOPIC>Simple reactive agents</TOPIC>
+<TOPIC>Reactive planners</TOPIC>
+<TOPIC>Layered architectures</TOPIC>
+<TOPIC>Example architectures and applications</TOPIC>
+<TOPIC>Agent theory</TOPIC>
+<TOPIC>Commitments</TOPIC>
+<TOPIC>Intentions</TOPIC>
+<TOPIC>Decision-theoretic agents</TOPIC>
+<TOPIC>Markov decision processes (MDP)</TOPIC>
+<TOPIC>Software agents, personal assistants, and information access</TOPIC>
+<TOPIC>Collaborative agents</TOPIC>
+<TOPIC>Information-gathering agents</TOPIC>
+<TOPIC>Believable agents (synthetic characters, modeling emotions in agents)</TOPIC>
+<TOPIC>Learning agents</TOPIC>
+<TOPIC>Multi-agent systems</TOPIC>
+<TOPIC>Economically inspired multi-agent systems</TOPIC>
+<TOPIC>Collaborating agents</TOPIC>
+<TOPIC>Agent teams</TOPIC>
+<TOPIC>Agent modeling</TOPIC>
+<TOPIC>Multi-agent learning</TOPIC>
+<TOPIC>Introduction to robotic agents</TOPIC>
+<TOPIC>Mobile agents</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain how an agent differs from other categories of intelligent systems.</OBJECTIVE>
+<OBJECTIVE>Characterize and contrast the standard agent architectures.</OBJECTIVE>
+<OBJECTIVE>Describe the applications of agent theory, to domains such as software agents,  personal assistants, and believable agents.</OBJECTIVE>
+<OBJECTIVE>Describe the distinction between agents that learn and those that dont.</OBJECTIVE>
+<OBJECTIVE>Demonstrate using appropriate examples how multi-agent systems support agent  interaction.</OBJECTIVE>
+<OBJECTIVE>Describe and contrast robotic and mobile agents.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS7" TYPE="ELECTIVE"><UNIT_NAME>Natural language processing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Natural Language</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Deterministic and stochastic grammars</TOPIC>
+<TOPIC>Parsing algorithms</TOPIC>
+<TOPIC>Corpus-based methods</TOPIC>
+<TOPIC>Information retrieval</TOPIC>
+<TOPIC>Language translation</TOPIC>
+<TOPIC>Speech recognition</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Define and contrast deterministic and stochastic grammars, providing examples to  show the adequacy of each.</OBJECTIVE>
+<OBJECTIVE>Identify the classic parsing algorithms for parsing natural language.</OBJECTIVE>
+<OBJECTIVE>Defend the need for an established corpus.</OBJECTIVE>
+<OBJECTIVE>Give examples of catalog and look up procedures in a corpus-based approach.</OBJECTIVE>
+<OBJECTIVE>Articulate the distinction between techniques for information retrieval, language  translation, and speech recognition.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS8" TYPE="ELECTIVE"><UNIT_NAME>Machine learning and neural networks</UNIT_NAME><SHORT_NAME  SOURCE="trento">Machine Learning</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Definition and examples of machine learning</TOPIC>
+<TOPIC>Supervised learning</TOPIC>
+<TOPIC>Learning decision trees</TOPIC>
+<TOPIC>Learning neural networks</TOPIC>
+<TOPIC>Learning belief networks</TOPIC>
+<TOPIC>The nearest neighbor algorithm</TOPIC>
+<TOPIC>Learning theory</TOPIC>
+<TOPIC>The problem of overfitting</TOPIC>
+<TOPIC>Unsupervised learning</TOPIC>
+<TOPIC>Reinforcement learning</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the differences among the three main styles of learning supervised,  reinforcement, and unsupervised.</OBJECTIVE>
+<OBJECTIVE>Implement simple algorithms for supervised learning, reinforcement learning, and  unsupervised learning.</OBJECTIVE>
+<OBJECTIVE>Determine which of the three learning styles is appropriate to a particular problem  domain.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast each of the following techniques, providing examples of when  each strategy is superior decision trees, neural networks, and belief networks.</OBJECTIVE>
+<OBJECTIVE>Implement a simple learning system using decision trees, neural networks and/or  belief networks, as appropriate.</OBJECTIVE>
+<OBJECTIVE>Characterize the state of the art in learning theory, including its achievements and its  shortcomings.</OBJECTIVE>
+<OBJECTIVE>Explain the nearest neighbor algorithm and its place within learning theory.</OBJECTIVE>
+<OBJECTIVE>Explain the problem of overfitting, along with techniques for detecting and managing  the problem.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS9" TYPE="ELECTIVE"><UNIT_NAME>AI planning systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Planning</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Definition and examples of planning systems</TOPIC>
+<TOPIC>Planning as search</TOPIC>
+<TOPIC>Operator-based planning</TOPIC>
+<TOPIC>Propositional planning</TOPIC>
+<TOPIC>Extending planning systems (case-based, learning, and probabilistic systems)</TOPIC>
+<TOPIC>Static world planning systems</TOPIC>
+<TOPIC>Planning and execution</TOPIC>
+<TOPIC>Planning and robotics</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Define the concept of a planning system.</OBJECTIVE>
+<OBJECTIVE>Explain how planning systems differ from classical search techniques.</OBJECTIVE>
+<OBJECTIVE>Articulate the differences between planning as search, operator-based planning, and  propositional planning, providing examples of domains where each is most  applicable.</OBJECTIVE>
+<OBJECTIVE>Define and provide examples for each of the following techniques case-based,  learning, and probabilistic planning.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast static world planning systems with those need dynamic  execution.</OBJECTIVE>
+<OBJECTIVE>Explain the impact of dynamic planning on robotics.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IS10" TYPE="ELECTIVE"><UNIT_NAME>Robotics</UNIT_NAME><SHORT_NAME  SOURCE="trento">Robotics</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Overview</TOPIC>
+<TOPIC>State-of-the-art robot systems</TOPIC>
+<TOPIC>Planning vs reactive control</TOPIC>
+<TOPIC>Uncertainty in control</TOPIC>
+<TOPIC>Sensing</TOPIC>
+<TOPIC>World models</TOPIC>
+<TOPIC>Configuration space</TOPIC>
+<TOPIC>Planning</TOPIC>
+<TOPIC>Sensing</TOPIC>
+<TOPIC>Robot programming</TOPIC>
+<TOPIC>Navigation and control</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Outline the potential and limitations of today's state-of-the-art robot systems.</OBJECTIVE>
+<OBJECTIVE>Implement configuration space algorithms for a 2D robot and complex polygons.</OBJECTIVE>
+<OBJECTIVE>Implement simple motion planning algorithms.</OBJECTIVE>
+<OBJECTIVE>Explain the uncertainties associated with sensors and how to deal with those  uncertainties.</OBJECTIVE>
+<OBJECTIVE>Design a simple control architecture.</OBJECTIVE>
+<OBJECTIVE>Describe various strategies for navigation in unknown environments, including the  strengths and shortcomings of each.</OBJECTIVE>
+<OBJECTIVE>Describe various strategies for navigation with the aid of landmarks, including the  strengths and shortcomings of each.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="IM">
+<AREA_NAME>Information Management</AREA_NAME><SHORT_NAME  SOURCE="trento">Info Mgmt</SHORT_NAME>
+<DESCRIPTION>
+Information Management (IM) plays a critical role in almost all areas where computers
+are used. This area includes the capture, digitization, representation, organization,
+transformation, and presentation of information algorithms for efficient and effective
+access and updating of stored information, data modeling and abstraction, and physical
+file storage techniques. It also encompasses information security, privacy, integrity, and
+protection in a shared environment. The student needs to be able to develop conceptual
+and physical data models, determine what IM methods and techniques are appropriate for
+a given problem, and be able to select and implement an appropriate IM solution that
+reflects all suitable constraints, including scalability and usability.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="IM1" TYPE="CORE"><UNIT_NAME>Information models and systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Information Models</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>History and motivation for information systems</TOPIC>
+<TOPIC>Information storage and retrieval (IS and R)</TOPIC>
+<TOPIC>Information management applications</TOPIC>
+<TOPIC>Information capture and representation</TOPIC>
+<TOPIC>Analysis and indexing</TOPIC>
+<TOPIC>Search, retrieval, linking, navigation</TOPIC>
+<TOPIC>Information privacy, integrity, security, and preservation</TOPIC>
+<TOPIC>Scalability, efficiency, and effectiveness</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast information with data and knowledge.</OBJECTIVE>
+<OBJECTIVE>Summarize the evolution of information systems from early visions up through  modern offerings, distinguishing their respective capabilities and future potential.</OBJECTIVE>
+<OBJECTIVE>Critique defend a small- to medium-size information application with regard to its  satisfying real user information needs.</OBJECTIVE>
+<OBJECTIVE>Describe several technical solutions to the problems related to information privacy,  integrity, security, and preservation.</OBJECTIVE>
+<OBJECTIVE>Explain measures of efficiency (throughput, response time) and effectiveness (recall,  precision).</OBJECTIVE>
+<OBJECTIVE>Describe approaches to ensure that information systems can scale from the individual  to the global.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM2" TYPE="CORE"><UNIT_NAME>Database systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Database Systems</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>History and motivation for database systems</TOPIC>
+<TOPIC>Components of database systems</TOPIC>
+<TOPIC>DBMS functions</TOPIC>
+<TOPIC>Database architecture and data independence</TOPIC>
+<TOPIC>Use of a database query language</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the characteristics that distinguish the database approach from the traditional  approach of programming with data files.</OBJECTIVE>
+<OBJECTIVE>Cite the basic goals, functions, models, components, applications, and social impact  of database systems.</OBJECTIVE>
+<OBJECTIVE>Describe the components of a database system and give examples of their use.</OBJECTIVE>
+<OBJECTIVE>Identify major DBMS functions and describe their role in a database system.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of data independence and its importance in a database system.</OBJECTIVE>
+<OBJECTIVE>Use a query language to elicit information from a database.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM3" TYPE="CORE"><UNIT_NAME>Data modeling</UNIT_NAME><SHORT_NAME  SOURCE="trento">Data Modeling</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Data modeling</TOPIC>
+<TOPIC>Conceptual models (including entity-relationship and UML)</TOPIC>
+<TOPIC>Object-oriented model</TOPIC>
+<TOPIC>Relational data model</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Categorize data models based on the types of concepts that they provide to describe  the database structurethat is, conceptual data model, physical data model, and  representational data model.</OBJECTIVE>
+<OBJECTIVE>Describe the modeling concepts and notation of the entity-relationship model and  UML, including their use in data modeling.</OBJECTIVE>
+<OBJECTIVE>Describe the main concepts of the OO model such as object identity, type  constructors, encapsulation, inheritance, polymorphism, and versioning.</OBJECTIVE>
+<OBJECTIVE>Define the fundamental terminology used in the relational data model.</OBJECTIVE>
+<OBJECTIVE>Describe the basic principles of the relational data model.</OBJECTIVE>
+<OBJECTIVE>Illustrate the modeling concepts and notation of the relational data model.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM4" TYPE="ELECTIVE"><UNIT_NAME>Relational databases</UNIT_NAME><SHORT_NAME  SOURCE="trento">Relational</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Mapping conceptual schema to a relational schema</TOPIC>
+<TOPIC>Entity and referential integrity</TOPIC>
+<TOPIC>Relational algebra and relational calculus</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Prepare a relational schema from a conceptual model developed using the entity-relationship  model</OBJECTIVE>
+<OBJECTIVE>Explain and demonstrate the concepts of entity integrity constraint and referential  integrity constraint (including definition of the concept of a foreign key).</OBJECTIVE>
+<OBJECTIVE>Demonstrate use of the relational algebra operations from mathematical set theory  (union, intersection, difference, and cartesian product) and the relational algebra  operations developed specifically for relational databases (select, product, join, and  division).</OBJECTIVE>
+<OBJECTIVE>Demonstrate queries in the relational algebra.</OBJECTIVE>
+<OBJECTIVE>Demonstrate queries in the tuple relational calculus.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM5" TYPE="ELECTIVE"><UNIT_NAME>Database query languages</UNIT_NAME><SHORT_NAME  SOURCE="trento">Query Languages</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Overview of database languages</TOPIC>
+<TOPIC>SQL (data definition, query formulation, update sublanguage, constraints, integrity)</TOPIC>
+<TOPIC>Query optimization</TOPIC>
+<TOPIC>QBE and 4th-generation environments</TOPIC>
+<TOPIC>Embedding non-procedural queries in a procedural language</TOPIC>
+<TOPIC>Introduction to Object Query Language</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Create a relational database schema in SQL that incorporates key, entity integrity, and  referential integrity constraints.</OBJECTIVE>
+<OBJECTIVE>Demonstrate data definition in SQL and retrieving information from a database using  the SQL SELECT statement.</OBJECTIVE>
+<OBJECTIVE>Evaluate a set of query processing strategies and select the optimal strategy.</OBJECTIVE>
+<OBJECTIVE>Create a non-procedural query by filling in templates of relations to construct an  example of the desired query result.</OBJECTIVE>
+<OBJECTIVE>Embed object-oriented queries into a stand-alone language such as C++ or Java (eg,  SELECT ColMethod() FROM Object).
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM6" TYPE="ELECTIVE"><UNIT_NAME>Relational database design</UNIT_NAME><SHORT_NAME  SOURCE="trento">RDB Design</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Database design</TOPIC>
+<TOPIC>Functional dependency</TOPIC>
+<TOPIC>Normal forms (1NF, 2NF, 3NF, BCNF)</TOPIC>
+<TOPIC>Multivalued dependency (4NF)</TOPIC>
+<TOPIC>Join dependency (PJNF, 5NF)</TOPIC>
+<TOPIC>Representation theory</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Determine the functional dependency between two or more attributes that are a subset  of a relation.</OBJECTIVE>
+<OBJECTIVE>Describe what is meant by 1NF, 2NF, 3NF, and BCNF.</OBJECTIVE>
+<OBJECTIVE>Identify whether a relation is in 1NF, 2NF, 3NF, or BCNF.</OBJECTIVE>
+<OBJECTIVE>Normalize a 1NF relation into a set of 3NF (or BCNF) relations and denormalize a  relational schema.</OBJECTIVE>
+<OBJECTIVE>Explain the impact of normalization on the efficiency of database operations,  especially query optimization.</OBJECTIVE>
+<OBJECTIVE>Describe what is a multivalued dependency and what type of constraints it specifies.</OBJECTIVE>
+<OBJECTIVE>Explain why 4NF is useful in schema design.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM7" TYPE="ELECTIVE"><UNIT_NAME>Transaction processing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Trans. Processing</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Transactions</TOPIC>
+<TOPIC>Failure and recovery</TOPIC>
+<TOPIC>Concurrency control</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Create a transaction by embedding SQL into an application program.</OBJECTIVE>
+<OBJECTIVE>Explain the concept of implicit commits.</OBJECTIVE>
+<OBJECTIVE>Describe the issues specific to efficient transaction execution.</OBJECTIVE>
+<OBJECTIVE>Explain when and why rollback is needed and how logging assures proper rollback.</OBJECTIVE>
+<OBJECTIVE>Explain the effect of different isolation levels on the concurrency control  mechanisms.</OBJECTIVE>
+<OBJECTIVE>Choose the proper isolation level for implementing a specified transaction protocol.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM8" TYPE="ELECTIVE"><UNIT_NAME>Distributed databases</UNIT_NAME><SHORT_NAME  SOURCE="trento">Dist. DBs</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Distributed data storage</TOPIC>
+<TOPIC>Distributed query processing</TOPIC>
+<TOPIC>Distributed transaction model</TOPIC>
+<TOPIC>Concurrency control</TOPIC>
+<TOPIC>Homogeneous and heterogeneous solutions</TOPIC>
+<TOPIC>Client-server</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the techniques used for data fragmentation, replication, and allocation during  the distributed database design process.</OBJECTIVE>
+<OBJECTIVE>Evaluate simple strategies for executing a distributed query to select the strategy that  minimizes the amount of data transfer.</OBJECTIVE>
+<OBJECTIVE>Explain how the two-phase commit protocol is used to deal with committing a  transaction that accesses databases stored on multiple nodes.</OBJECTIVE>
+<OBJECTIVE>Describe distributed concurrency control based on the distinguished copy techniques  and the voting method.</OBJECTIVE>
+<OBJECTIVE>Describe the three levels of software in the client-server model.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM9" TYPE="ELECTIVE"><UNIT_NAME>Physical database design</UNIT_NAME><SHORT_NAME  SOURCE="trento">Physical Design</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Storage and file structure</TOPIC>
+<TOPIC>Indexed files</TOPIC>
+<TOPIC>Hashed files</TOPIC>
+<TOPIC>Signature files</TOPIC>
+<TOPIC>B-trees</TOPIC>
+<TOPIC>Files with dense index</TOPIC>
+<TOPIC>Files with variable length records</TOPIC>
+<TOPIC>Database efficiency and tuning</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the concepts of records, record types, and files, as well as the different  techniques for placing file records on disk.</OBJECTIVE>
+<OBJECTIVE>Give examples of the application of primary, secondary, and clustering indexes.</OBJECTIVE>
+<OBJECTIVE>Distinguish between a nondense index and a dense index.</OBJECTIVE>
+<OBJECTIVE>Implement dynamic multilevel indexes using B-trees.</OBJECTIVE>
+<OBJECTIVE>Explain the theory and application of internal and external hashing techniques.</OBJECTIVE>
+<OBJECTIVE>Use hashing to facilitate dynamic file expansion.</OBJECTIVE>
+<OBJECTIVE>Describe the relationships among hashing, compression, and efficient database  searches.</OBJECTIVE>
+<OBJECTIVE>Evaluate costs and benefits of various hashing schemes.</OBJECTIVE>
+<OBJECTIVE>Explain how physical database design affects database transaction efficiency.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM10" TYPE="ELECTIVE"><UNIT_NAME>Data mining</UNIT_NAME><SHORT_NAME  SOURCE="trento">Data Mining</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>The usefulness of data mining</TOPIC>
+<TOPIC>Associative and sequential patterns</TOPIC>
+<TOPIC>Data clustering</TOPIC>
+<TOPIC>Market basket analysis</TOPIC>
+<TOPIC>Data cleaning</TOPIC>
+<TOPIC>Data visualization</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast different conceptions of data mining as evidenced in both  research and application.</OBJECTIVE>
+<OBJECTIVE>Explain the role of finding associations in commercial market basket data.</OBJECTIVE>
+<OBJECTIVE>Characterize the kinds of patterns that can be discovered by association rule mining.</OBJECTIVE>
+<OBJECTIVE>Describe how to extend a relational system to find patterns using association rules.</OBJECTIVE>
+<OBJECTIVE>Evaluate methodological issues underlying the effective application of data mining.</OBJECTIVE>
+<OBJECTIVE>Identify and characterize SOURCEs of noise, redundancy, and outliers in presented data.</OBJECTIVE>
+<OBJECTIVE>Identify mechanisms (on-line aggregation, anytime behavior, interactive  visualization) to close the loop in the data mining process.</OBJECTIVE>
+<OBJECTIVE>Describe why the various close-the-loop processes improve the effectiveness of data  mining.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM11" TYPE="ELECTIVE"><UNIT_NAME>Information storage and retrieval</UNIT_NAME><SHORT_NAME  SOURCE="trento">Storage</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Characters, strings, coding, text</TOPIC>
+<TOPIC>Documents, electronic publishing, markup, and markup languages</TOPIC>
+<TOPIC>Tries, inverted files, PAT trees, signature files, indexing</TOPIC>
+<TOPIC>Morphological analysis, stemming, phrases, stop lists</TOPIC>
+<TOPIC>Term frequency distributions, uncertainty, fuzziness, weighting</TOPIC>
+<TOPIC>Vector space, probabilistic, logical, and advanced models</TOPIC>
+<TOPIC>Information needs, relevance, evaluation, effectiveness</TOPIC>
+<TOPIC>Thesauri, ontologies, classification and categorization, metadata</TOPIC>
+<TOPIC>Bibliographic information, bibliometrics, citations</TOPIC>
+<TOPIC>Routing and (community) filtering</TOPIC>
+<TOPIC>Search and search strategy, information seeking behavior, user modeling, feedback</TOPIC>
+<TOPIC>Information summarization and visualization</TOPIC>
+<TOPIC>Integration of citation, keyword, classification scheme, and other terms</TOPIC>
+<TOPIC>Protocols and systems (including Z39.50, OPACs, WWW engines, research systems)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain basic information storage and retrieval concepts.</OBJECTIVE>
+<OBJECTIVE>Describe what issues are specific to efficient information retrieval.</OBJECTIVE>
+<OBJECTIVE>Give applications of alternative search strategies and explain why the particular  search strategy is appropriate for the application.</OBJECTIVE>
+<OBJECTIVE>Perform Internet-based research.</OBJECTIVE>
+<OBJECTIVE>Design and implement a small to medium size information storage and retrieval  system.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM12" TYPE="ELECTIVE"><UNIT_NAME>Hypertext and hypermedia</UNIT_NAME><SHORT_NAME  SOURCE="trento">Hypermedia</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Hypertext models (early history, web, Dexter, Amsterdam, HyTime)</TOPIC>
+<TOPIC>Link services, engines, and (distributed) hypertext architectures</TOPIC>
+<TOPIC>Nodes, composites, and anchors</TOPIC>
+<TOPIC>Dimensions, units, locations, spans</TOPIC>
+<TOPIC>Browsing, navigation, views, zooming</TOPIC>
+<TOPIC>Automatic link generation</TOPIC>
+<TOPIC>Presentation, transformations, synchronization</TOPIC>
+<TOPIC>Authoring, reading, and annotation</TOPIC>
+<TOPIC>Protocols and systems (including web, HTTP)</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the evolution of hypertext and hypermedia models from early versions up  through current offerings, distinguishing their respective capabilities and limitations.</OBJECTIVE>
+<OBJECTIVE>Explain basic hypertext and hypermedia concepts.</OBJECTIVE>
+<OBJECTIVE>Demonstrate a fundamental understanding of information presentation,  transformation, and synchronization.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast hypermedia delivery based on protocols and systems used.</OBJECTIVE>
+<OBJECTIVE>Design and implement web-enabled information retrieval applications using  appropriate authoring tools.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM13" TYPE="ELECTIVE"><UNIT_NAME>Multimedia information and systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Multimedia</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Devices, device drivers, control signals and protocols, DSPs</TOPIC>
+<TOPIC>Applications, media editors, authoring systems, and authoring</TOPIC>
+<TOPIC>Streams/structures, capture/represent/transform, spaces/domains, compression/coding</TOPIC>
+<TOPIC>Content-based analysis, indexing, and retrieval of audio, images, and video</TOPIC>
+<TOPIC>Presentation, rendering, synchronization, multi-modal integration interfaces</TOPIC>
+<TOPIC>Real-time delivery, quality of service, audio/video conferencing, video-on-demand</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Describe the media and supporting devices commonly associated with multimedia  information and systems.</OBJECTIVE>
+<OBJECTIVE>Explain basic multimedia presentation concepts.</OBJECTIVE>
+<OBJECTIVE>Demonstrate the use of content-based information analysis in a multimedia  information system.</OBJECTIVE>
+<OBJECTIVE>Critique multimedia presentations in terms of their appropriate use of audio, video,  graphics, color, and other information presentation concepts.</OBJECTIVE>
+<OBJECTIVE>Implement a multimedia application using a commercial authoring system.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="IM14" TYPE="ELECTIVE"><UNIT_NAME>Digital libraries</UNIT_NAME><SHORT_NAME  SOURCE="trento">Digital Libraries</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Digitization, storage, and interchange</TOPIC>
+<TOPIC>Digital objects, composites, and packages</TOPIC>
+<TOPIC>Metadata, cataloging, author submission</TOPIC>
+<TOPIC>Naming, repositories, archives</TOPIC>
+<TOPIC>Spaces (conceptual, geographical, 2/3D, VR)</TOPIC>
+<TOPIC>Architectures (agents, buses, wrappers/mediators), interoperability</TOPIC>
+<TOPIC>Services (searching, linking, browsing, and so forth)</TOPIC>
+<TOPIC>Intellectual property rights management, privacy, protection (watermarking)</TOPIC>
+<TOPIC>Archiving and preservation, integrity</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the underlying technical concepts in building a digital library.</OBJECTIVE>
+<OBJECTIVE>Describe the basic service requirements for searching, linking, and browsing.</OBJECTIVE>
+<OBJECTIVE>Critique scenarios involving appropriate and inappropriate use of a digital library, and  determine the social, legal, and economic consequences for each scenario.</OBJECTIVE>
+<OBJECTIVE>Describe some of the technical solutions to the problems related to archiving and  preserving information in a digital library.</OBJECTIVE>
+<OBJECTIVE>Design and implement a small digital library.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="SP">
+<AREA_NAME>Social and Professional Issues</AREA_NAME><SHORT_NAME  SOURCE="trento">Society</SHORT_NAME>
+<DESCRIPTION>
+Although technical issues are obviously central to any computing curriculum, they do not
+by themselves constitute a complete educational program in the field. Students must also
+develop an understanding of the social and professional context in which computing is
+done.
+This need to incorporate the study of social issues into the curriculum was recognized in
+the following excerpt from Computing Curricula 1991 [Tucker91]:
+Undergraduates also need to understand the basic cultural, social, legal, and
+ethical issues inherent in the discipline of computing. They should understand
+where the discipline has been, where it is, and where it is heading. They should
+also understand their individual roles in this process, as well as appreciate the
+philosophical questions, technical problems, and aesthetic values that play an
+important part in the development of the discipline.
+Students also need to develop the ability to ask serious questions about the social
+impact of computing and to evaluate proposed answers to those questions.
+Future practitioners must be able to anticipate the impact of introducing a given
+product into a given environment. Will that product enhance or degrade the
+quality of life What will the impact be upon individuals, groups, and
+institutions
+Finally, students need to be aware of the basic legal rights of software and
+hardware vendors and users, and they also need to appreciate the ethical values
+that are the basis for those rights. Future practitioners must understand the
+responsibility that they will bear, and the possible consequences of failure. They
+must understand their own limitations as well as the limitations of their tools.
+All practitioners must make a long-term commitment to remaining current in
+their chosen specialties and in the discipline of computing as a whole.
+The material in this knowledge area is best covered through a combination of one
+required course along with short modules in other courses. On the one hand, some units
+listed as core in particular, SP2, SP3, SP4, and SP6 do not readily lend themselves to
+being covered in other traditional courses. Without a standalone course, it is difficult to
+cover these topics appropriately. On the other hand, if ethical considerations are covered
+only in the standalone course and not in context, it will reinforce the false notion that
+technical processes are void of ethical issues. Thus it is important that several traditional
+courses include modules that analyze ethical considerations in the context of the technical
+subject matter of the course. Courses in areas such as software engineering, databases,
+computer networks, and introduction to computing provide obvious context for analysis
+of ethical issues. However, an ethics-related module could be developed for almost any
+course in the curriculum. It would be explicitly against the spirit of the recommendations
+to have only a standalone course. Running through all of the issues in this area is the
+need to speak to the computer practitioners responsibility to proactively address these
+issues by both moral and technical actions.
+The ethical issues discussed in any class should be directly related to and arise naturally
+from the subject matter of that class. Examples include a discussion in the database
+course of data aggregation or data mining, or a discussion in the software engineering
+course of the potential conflicts between obligations to the customer and obligations to
+the user and others affected by their work. Programming assignments built around
+applications such as controlling the movement of a laser during eye surgery can help to
+address the professional, ethical and social impacts of computing.
+There is an unresolved pedagogical conflict between having the core course at the lower
+(freshman-sophomore) level versus the upper (junior-senior) level. Having the course at
+the lower level
+1 Allows for coverage of methods and tools of analysis (SP3) prior to analyzing ethical
+issues in the context of different technical areas
+2 Assures that students who drop out early to enter the workforce will still be
+introduced to some professional and ethical issues.
+On the other hand, placing the course too early may lead to the following problems
+1 Lower-level students may not have the technical knowledge and intellectual maturity
+to support in-depth ethical analysis. Without basic understanding of technical
+alternatives, it is difficult to consider their ethical implications.
+2 Students need a certain level of maturity and sophistication to appreciate the
+background and issues involved. For that reason, students should have completed at
+least the discrete mathematics course and the second computer science course. Also,
+if students take a technical writing course, it should be a prerequisite or co-requisite
+for the required course in the SP area.
+3 Some programs may wish to use the course as a capstone experience for seniors.
+Although items SP2 and SP3 are listed with a number of hours associated, they are
+fundamental to all the other topics. Thus, when covering the other areas, instructors
+should continually be aware of the social context issues and the ethical analysis skills. In
+practice, this means that the topics in SP2 and SP3 will be continually reinforced as the
+material in the other areas is covered.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="SP1" TYPE="CORE"><UNIT_NAME>History of computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">History</SHORT_NAME>
+<TIME>1</TIME>
+<TOPICS>
+<TOPIC>Prehistory the world before 1946</TOPIC>
+<TOPIC>History of computer hardware, software, networking</TOPIC>
+<TOPIC>Pioneers of computing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>List the contributions of several pioneers in the computing field.</OBJECTIVE>
+<OBJECTIVE>Compare daily life before and after the advent of personal computers and the Internet.</OBJECTIVE>
+<OBJECTIVE>Identify significant continuing trends in the history of the computing field.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP2" TYPE="CORE"><UNIT_NAME>Social context of computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Context</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Introduction to the social implications of computing</TOPIC>
+<TOPIC>Social implications of networked communication</TOPIC>
+<TOPIC>Growth of, control of, and access to the Internet</TOPIC>
+<TOPIC>Gender-related issues</TOPIC>
+<TOPIC>International issues</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Interpret the social context of a particular implementation.</OBJECTIVE>
+<OBJECTIVE>Identify assumptions and values embedded in a particular design.</OBJECTIVE>
+<OBJECTIVE>Evaluate a particular implementation through the use of empirical data.</OBJECTIVE>
+<OBJECTIVE>Describe positive and negative ways in which computing alters the modes of  interaction between people.</OBJECTIVE>
+<OBJECTIVE>Explain why computing network access is restricted in some countries.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP3" TYPE="CORE"><UNIT_NAME>Methods and tools of analysis</UNIT_NAME><SHORT_NAME  SOURCE="trento">Methods</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Making and evaluating ethical arguments</TOPIC>
+<TOPIC>Identifying and evaluating ethical choices</TOPIC>
+<TOPIC>Understanding the social context of design</TOPIC>
+<TOPIC>Identifying assumptions and values</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Analyze an argument to identify premises and conclusion.</OBJECTIVE>
+<OBJECTIVE>Illustrate the use of example, analogy, and counter-analogy in ethical argument.</OBJECTIVE>
+<OBJECTIVE>Detect use of basic logical fallacies in an argument.</OBJECTIVE>
+<OBJECTIVE>Identify stakeholders in an issue and our obligations to them.</OBJECTIVE>
+<OBJECTIVE>Articulate the ethical tradeoffs in a technical decision.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP4" TYPE="CORE"><UNIT_NAME>Professional and ethical responsibilities</UNIT_NAME><SHORT_NAME  SOURCE="trento">Ethics</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Community values and the laws by which we live</TOPIC>
+<TOPIC>The nature of professionalism</TOPIC>
+<TOPIC>Various forms of professional credentialing and the advantages and disadvantages</TOPIC>
+<TOPIC>The role of the professional in public policy</TOPIC>
+<TOPIC>Maintaining awareness of consequences</TOPIC>
+<TOPIC>Ethical dissent and whistle-blowing</TOPIC>
+<TOPIC>Codes of ethics, conduct, and practice (IEEE, ACM, SE, AITP, and so forth)</TOPIC>
+<TOPIC>Dealing with harassment and discrimination</TOPIC>
+<TOPIC>Acceptable use policies for computing in the workplace</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Identify progressive stages in a whistle-blowing incident.</OBJECTIVE>
+<OBJECTIVE>Specify the strengths and weaknesses of relevant professional codes as expressions of  professionalism and guides to decision-making.</OBJECTIVE>
+<OBJECTIVE>Identify ethical issues that arise in software development and determine how to  address them technically and ethically.</OBJECTIVE>
+<OBJECTIVE>Develop a computer use policy with enforcement measures.</OBJECTIVE>
+<OBJECTIVE>Analyze a global computing issue, observing the role of professionals and  government officials in managing the problem.</OBJECTIVE>
+<OBJECTIVE>Evaluate the professional codes of ethics from the ACM, the IEEE Computer Society,  and other organizations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP5" TYPE="CORE"><UNIT_NAME>Risks and liabilities of computer-based systems</UNIT_NAME><SHORT_NAME  SOURCE="trento">Risks</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Historical examples of software risks (such as the Therac-25 case)</TOPIC>
+<TOPIC>Implications of software complexity</TOPIC>
+<TOPIC>Risk assessment and management</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the limitations of testing as a means to ensure correctness.</OBJECTIVE>
+<OBJECTIVE>Describe the differences between correctness, reliability, and safety.</OBJECTIVE>
+<OBJECTIVE>Discuss the potential for hidden problems in reuse of existing components.</OBJECTIVE>
+<OBJECTIVE>Describe current approaches to managing risk, and characterize the strengths and  shortcomings of each.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP6" TYPE="CORE"><UNIT_NAME>Intellectual property</UNIT_NAME><SHORT_NAME  SOURCE="trento">IP</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Foundations of intellectual property</TOPIC>
+<TOPIC>Copyrights, patents, and trade secrets</TOPIC>
+<TOPIC>Software piracy</TOPIC>
+<TOPIC>Software patents</TOPIC>
+<TOPIC>Transnational issues concerning intellectual property</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Distinguish among patent, copyright, and trade secret protection.</OBJECTIVE>
+<OBJECTIVE>Discuss the legal background of copyright in national and international law.</OBJECTIVE>
+<OBJECTIVE>Explain how patent and copyright laws may vary internationally.</OBJECTIVE>
+<OBJECTIVE>Outline the historical development of software patents.</OBJECTIVE>
+<OBJECTIVE>Discuss the consequences of software piracy on software developers and the role of  relevant enforcement organizations.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP7" TYPE="CORE"><UNIT_NAME>Privacy and civil liberties</UNIT_NAME><SHORT_NAME  SOURCE="trento">Privacy</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Ethical and legal basis for privacy protection</TOPIC>
+<TOPIC>Privacy implications of massive database systems</TOPIC>
+<TOPIC>Technological strategies for privacy protection</TOPIC>
+<TOPIC>Freedom of expression in cyberspace</TOPIC>
+<TOPIC>International and intercultural implications</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the legal bases for the right to privacy and freedom of expression in ones  own nation and how those concepts vary from country to country.</OBJECTIVE>
+<OBJECTIVE>Describe current computer-based threats to privacy.</OBJECTIVE>
+<OBJECTIVE>Explain how the Internet may change the historical balance in protecting freedom of  expression.</OBJECTIVE>
+<OBJECTIVE>Explain both the disadvantages and advantages of free expression in cyberspace.</OBJECTIVE>
+<OBJECTIVE>Describe trends in privacy protection as exemplified in technology.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP8" TYPE="ELECTIVE"><UNIT_NAME>Computer crime</UNIT_NAME><SHORT_NAME  SOURCE="trento">Crime</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>History and examples of computer crime</TOPIC>
+<TOPIC>Cracking (hacking) and its effects</TOPIC>
+<TOPIC>Viruses, worms, and Trojan horses</TOPIC>
+<TOPIC>Crime prevention strategies</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Outline the technical basis of viruses and denial-of-service attacks.</OBJECTIVE>
+<OBJECTIVE>Enumerate techniques to combat cracker attacks.</OBJECTIVE>
+<OBJECTIVE>Discuss several different cracker approaches and motivations.</OBJECTIVE>
+<OBJECTIVE>Identify the professionals role in security and the tradeoffs involved.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP9" TYPE="ELECTIVE"><UNIT_NAME>Economic issues in computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Economics</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Monopolies and their economic implications</TOPIC>
+<TOPIC>Effect of skilled labor supply and demand on the quality of computing products</TOPIC>
+<TOPIC>Pricing strategies in the computing domain</TOPIC>
+<TOPIC>Differences in access to computing reSOURCEs and the possible effects thereof</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the rationale for antimonopoly efforts.</OBJECTIVE>
+<OBJECTIVE>Describe several ways in which the information technology industry is affected by  shortages in the labor supply.</OBJECTIVE>
+<OBJECTIVE>Suggest and defend ways to address limitations on access to computing.</OBJECTIVE>
+<OBJECTIVE>Outline the evolution of pricing strategies for computing goods and services.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SP10" TYPE="ELECTIVE"><UNIT_NAME>Philosophical frameworks</UNIT_NAME><SHORT_NAME  SOURCE="trento">Philisophy</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Philosophical frameworks, particularly utilitarianism and deontological theories</TOPIC>
+<TOPIC>Problems of ethical relativism</TOPIC>
+<TOPIC>Scientific ethics in historical perspective</TOPIC>
+<TOPIC>Differences in scientific and philosophical approaches</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Summarize the basic concepts of relativism, utilitarianism, and deontological  theories.</OBJECTIVE>
+<OBJECTIVE>Recognize the distinction between ethical theory and professional ethics.</OBJECTIVE>
+<OBJECTIVE>Identify the weaknesses of the hired agent approach, strict legalism, naive egoism,  and naive relativism as ethical frameworks.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="SE">
+<AREA_NAME>Software Engineering</AREA_NAME><SHORT_NAME  SOURCE="trento">SE</SHORT_NAME>
+<DESCRIPTION>
+Software engineering is the discipline concerned with the application of theory,
+knowledge, and practice for effectively and efficiently building software systems that
+satisfy the requirements of users and customers. Software engineering is applicable to
+small, medium, and large-scale systems. It encompasses all phases of the life cycle of a
+software system. The life cycle includes requirement analysis and specification, design,
+construction, testing, and operation and maintenance.
+Software engineering employs engineering methods, processes, techniques, and
+measurement. It benefits from the use of tools for managing software development
+analyzing and modeling software artifacts assessing and controlling quality and for
+ensuring a disciplined, controlled approach to software evolution and reuse. Software
+development, which can involve an individual developer or a team of developers, requires
+choosing the tools, methods, and approaches that are most applicable for a given
+development environment.
+The elements of software engineering are applicable to the development of software in
+any computing application domain where professionalism, quality, schedule, and cost are
+important in producing a software system.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="SE1" TYPE="CORE"><UNIT_NAME>Software design</UNIT_NAME><SHORT_NAME  SOURCE="trento">Design</SHORT_NAME>
+<TIME>8</TIME>
+<TOPICS>
+<TOPIC>Fundamental design concepts and principles</TOPIC>
+<TOPIC>Design patterns</TOPIC>
+<TOPIC>Software architecture</TOPIC>
+<TOPIC>Structured design</TOPIC>
+<TOPIC>Object-oriented analysis and design</TOPIC>
+<TOPIC>Component-level design</TOPIC>
+<TOPIC>Design for reuse</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the properties of good software design.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast object-oriented analysis and design with structured analysis  and design.</OBJECTIVE>
+<OBJECTIVE>Evaluate the quality of multiple software designs based on key design principles and  concepts.</OBJECTIVE>
+<OBJECTIVE>Select and apply appropriate design patterns in the construction of a software  application.</OBJECTIVE>
+<OBJECTIVE>Create and specify the software design for a medium-size software product using a  software requirement specification, an accepted program design methodology (eg,  structured or object-oriented), and appropriate design notation.</OBJECTIVE>
+<OBJECTIVE>Conduct a software design review using appropriate guidelines.</OBJECTIVE>
+<OBJECTIVE>Evaluate a software design at the component level.</OBJECTIVE>
+<OBJECTIVE>Evaluate a software design from the perspective of reuse.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE2" TYPE="CORE"><UNIT_NAME>Using APIs</UNIT_NAME><SHORT_NAME  SOURCE="trento">APIs</SHORT_NAME>
+<TIME>5</TIME>
+<TOPICS>
+<TOPIC>API programming</TOPIC>
+<TOPIC>Class browsers and related tools</TOPIC>
+<TOPIC>Programming by example</TOPIC>
+<TOPIC>Debugging in the API environment</TOPIC>
+<TOPIC>Introduction to component-based computing</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the value of application programming interfaces (APIs) in software  development.</OBJECTIVE>
+
+<OBJECTIVE>Use class browsers and related tools during the development of applications using  APIs.</OBJECTIVE>
+<OBJECTIVE>Design, implement, test, and debug programs that use large-scale API packages.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE3" TYPE="CORE"><UNIT_NAME>Software tools and environments</UNIT_NAME><SHORT_NAME  SOURCE="trento">Tools</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Programming environments</TOPIC>
+<TOPIC>Requirements analysis and design modeling tools</TOPIC>
+<TOPIC>Testing tools</TOPIC>
+<TOPIC>Configuration management tools</TOPIC>
+<TOPIC>Tool integration mechanisms</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Select, with justification, an appropriate set of tools to support the development of a  range of software products.</OBJECTIVE>
+<OBJECTIVE>Analyze and evaluate a set of tools in a given area of software development (e.g.,  management, modeling, or testing).</OBJECTIVE>
+<OBJECTIVE>Demonstrate the capability to use a range of software tools in support of the  development of a software product of medium size.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE4" TYPE="CORE"><UNIT_NAME>Software processes</UNIT_NAME><SHORT_NAME  SOURCE="trento">Process</SHORT_NAME>
+<TIME>2</TIME>
+<TOPICS>
+<TOPIC>Software life-cycle and process models</TOPIC>
+<TOPIC>Process assessment models</TOPIC>
+<TOPIC>Software process metrics</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain the software life cycle and its phases including the deliverables that are  produced.</OBJECTIVE>
+<OBJECTIVE>Select, with justification the software development models most appropriate for the  development and maintenance of a diverse range of software products.</OBJECTIVE>
+<OBJECTIVE>Explain the role of process maturity models.</OBJECTIVE>
+<OBJECTIVE>Compare the traditional waterfall model to the incremental model, the object-oriented  model, and other apropriate models.</OBJECTIVE>
+<OBJECTIVE>For each of various software project scenarios, describe the projects place in the  software life cycle, identify the particular tasks that should be performed next, and  identify metrics appropriate to those tasks.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE5" TYPE="CORE"><UNIT_NAME>Software requirements and specifications</UNIT_NAME><SHORT_NAME  SOURCE="trento">Requirements</SHORT_NAME>
+<TIME>4</TIME>
+<TOPICS>
+<TOPIC>Requirements elicitation</TOPIC>
+<TOPIC>Requirements analysis modeling techniques</TOPIC>
+<TOPIC>Functional and nonfunctional requirements</TOPIC>
+<TOPIC>Prototyping</TOPIC>
+<TOPIC>Basic concepts of formal specification techniques</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Apply key elements and common methods for elicitation and analysis to produce a set  of software requirements for a medium-sized software system.</OBJECTIVE>
+<OBJECTIVE>Discuss the challenges of maintaining legacy software.</OBJECTIVE>
+<OBJECTIVE>Use a common, non-formal method to model and specify (in the form of a  requirements specification document) the requirements for a medium-size software  system.</OBJECTIVE>
+<OBJECTIVE>Conduct a review of a software requirements document using best practices to  determine the quality of the document.</OBJECTIVE>
+<OBJECTIVE>Translate into natural language a software requirements specification written in a  commonly used formal specification language.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE6" TYPE="CORE"><UNIT_NAME>Software validation</UNIT_NAME><SHORT_NAME  SOURCE="trento">Validation</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Validation planning</TOPIC>
+<TOPIC>Testing fundamentals, including test plan creation and test case generation</TOPIC>
+<TOPIC>Black-box and white-box testing techniques</TOPIC>
+<TOPIC>Unit, integration, validation, and system testing</TOPIC>
+<TOPIC>Object-oriented testing</TOPIC>
+<TOPIC>Inspections</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Distinguish between program validation and verification.</OBJECTIVE>
+<OBJECTIVE>Describe the role that tools can play in the validation of software.</OBJECTIVE>
+<OBJECTIVE>Distinguish between the different types and levels of testing (unit, integration,  systems, and acceptance) for medium-size software products.</OBJECTIVE>
+<OBJECTIVE>Create, evaluate, and implement a test plan for a medium-size code segment.</OBJECTIVE>
+<OBJECTIVE>Undertake, as part of a team activity, an inspection of a medium-size code segment.</OBJECTIVE>
+<OBJECTIVE>Discuss the issues involving the testing of object-oriented software.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE7" TYPE="CORE"><UNIT_NAME>Software evolution</UNIT_NAME><SHORT_NAME  SOURCE="trento">Evolution</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Software maintenance</TOPIC>
+<TOPIC>Characteristics of maintainable software</TOPIC>
+<TOPIC>Reengineering</TOPIC>
+<TOPIC>Legacy systems</TOPIC>
+<TOPIC>Software reuse</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Identify the principal issues associated with software evolution and explain their  impact on the software life cycle.</OBJECTIVE>
+<OBJECTIVE>Discuss the challenges of maintaining legacy systems and the need for reverse  engineering.</OBJECTIVE>
+<OBJECTIVE>Outline the process of regression testing and its role in release management.</OBJECTIVE>
+<OBJECTIVE>Estimate the impact of a change request to an existing product of medium size.</OBJECTIVE>
+<OBJECTIVE>Develop a plan for re-engineering a medium-sized product in response to a change  request.</OBJECTIVE>
+<OBJECTIVE>Discuss the advantages and disadvantages of software reuse.</OBJECTIVE>
+<OBJECTIVE>Exploit opportunities for software reuse in a given context.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE8" TYPE="CORE"><UNIT_NAME>Software project management</UNIT_NAME><SHORT_NAME  SOURCE="trento">Project Mgmt</SHORT_NAME>
+<TIME>3</TIME>
+<TOPICS>
+<TOPIC>Team management</TOPIC>
+<TOPIC>Team processes</TOPIC>
+<TOPIC>Team organization and decision-making</TOPIC>
+<TOPIC>Roles and responsibilities in a software team</TOPIC>
+<TOPIC>Role identification and assignment</TOPIC>
+<TOPIC>Project tracking</TOPIC>
+<TOPIC>Team problem resolution</TOPIC>
+<TOPIC>Project scheduling</TOPIC>
+<TOPIC>Software measurement and estimation techniques</TOPIC>
+<TOPIC>Risk analysis</TOPIC>
+<TOPIC>Software quality assurance</TOPIC>
+<TOPIC>Software configuration management</TOPIC>
+<TOPIC>Project management tools</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Demonstrate through involvement in a team project the central elements of team  building and team management.</OBJECTIVE>
+<OBJECTIVE>Prepare a project plan for a software project that includes estimates of size and effort,  a schedule, reSOURCE allocation, configuration control, change management, and  project risk identification and management.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast the different methods and techniques used to assure the quality  oa software product.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE9" TYPE="ELECTIVE"><UNIT_NAME>Component-based computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Components</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Fundamentals</TOPIC>
+<TOPIC>The definition and nature of components</TOPIC>
+<TOPIC>Components and interfaces</TOPIC>
+
+<TOPIC>Interfaces as contracts</TOPIC>
+<TOPIC>The benefits of components</TOPIC>
+<TOPIC>Basic techniques</TOPIC>
+<TOPIC>Component design and assembly</TOPIC>
+<TOPIC>Relationship with the client-server model and with patterns</TOPIC>
+<TOPIC>Use of objects and object lifecycle services</TOPIC>
+<TOPIC>Use of object brokers</TOPIC>
+<TOPIC>Marshalling</TOPIC>
+<TOPIC>Applications (including the use of mobile components)</TOPIC>
+<TOPIC>Architecture of component-based systems</TOPIC>
+<TOPIC>Component-oriented design</TOPIC>
+<TOPIC>Event handling : detection, notification, and response</TOPIC>
+<TOPIC>Middleware</TOPIC>
+<TOPIC>The object-oriented paradigm within middleware</TOPIC>
+<TOPIC>Object request brokers</TOPIC>
+<TOPIC>Transaction processing monitors</TOPIC>
+<TOPIC>Workflow systems</TOPIC>
+<TOPIC>State-of-the-art tools</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Explain and apply recognized principles to the building of high-quality software  components.</OBJECTIVE>
+<OBJECTIVE>Discuss and select an architecture for a component-based system suitable for a given  scenario.</OBJECTIVE>
+<OBJECTIVE>Identify the kind of event handling implemented in one or more given APIs.</OBJECTIVE>
+<OBJECTIVE>Explain the role of objects in middleware systems and the relationship with  components.</OBJECTIVE>
+<OBJECTIVE>Apply component-oriented approaches to the design of a range of software including  those required for concurrency and transactions, reliable communication services,  database interaction including services for remote query and database management,  secure communication and access.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE10" TYPE="ELECTIVE"><UNIT_NAME>Formal methods</UNIT_NAME><SHORT_NAME  SOURCE="trento">Formal Methods</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Formal methods concepts</TOPIC>
+<TOPIC>Formal specification languages</TOPIC>
+<TOPIC>Executable and non-executable specifications</TOPIC>
+<TOPIC>Pre and post assertions</TOPIC>
+<TOPIC>Formal verification</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Apply formal verification techniques to software segments with low complexity.</OBJECTIVE>
+<OBJECTIVE>Discuss the role of formal verification techniques in the context of software validation  and testing.</OBJECTIVE>
+<OBJECTIVE>Explain the potential benefits and drawbacks of using formal specification languages.</OBJECTIVE>
+<OBJECTIVE>Create and evaluate pre- and post-assertions for a variety of situations ranging from  simple through complex.</OBJECTIVE>
+<OBJECTIVE>Using a common formal specification language, formulate the specification of a  simple software system and demonstrate the benefits from a quality perspective.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE11" TYPE="ELECTIVE"><UNIT_NAME>Software reliability</UNIT_NAME><SHORT_NAME  SOURCE="trento">Reliability</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Software reliability models</TOPIC>
+<TOPIC>Redundancy and fault tolerance</TOPIC>
+<TOPIC>Defect classification</TOPIC>
+<TOPIC>Probabilistic methods of analysis</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Demonstrate the ability to apply multiple methods to develop reliability estimates for  a software system.</OBJECTIVE>
+<OBJECTIVE>Identify and apply redundancy and fault tolerance for a medium-sized application.</OBJECTIVE>
+<OBJECTIVE>Explain the problems that exist in achieving very high levels of reliability.</OBJECTIVE>
+<OBJECTIVE>Identify methods that will lead to the realization of a software architecture that  achieves a specified reliability level.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="SE12" TYPE="ELECTIVE"><UNIT_NAME>Specialized systems development</UNIT_NAME><SHORT_NAME  SOURCE="trento">Specialized Systems</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Real-time systems</TOPIC>
+<TOPIC>Client-server systems</TOPIC>
+<TOPIC>Distributed systems</TOPIC>
+<TOPIC>Parallel systems</TOPIC>
+<TOPIC>Web-based systems</TOPIC>
+<TOPIC>High-integrity systems</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Identify and discuss different specialized systems.</OBJECTIVE>
+<OBJECTIVE>Discuss life cycle and software process issues in the context of software systems  designed for a specialized context.</OBJECTIVE>
+<OBJECTIVE>Select, with appropriate justification, approaches that will result in the efficient and  effective development and maintenance of specialized software systems.</OBJECTIVE>
+<OBJECTIVE>Given a specific context and a set of related professional issues, discuss how a  software engineer involved in the development of specialized systems should respond  to those issues.</OBJECTIVE>
+<OBJECTIVE>Outline the central technical issues associated with the implementation of specialized  systems development.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+<AREA ID="CN">
+<AREA_NAME>Computational Science and Numerical Methods</AREA_NAME><SHORT_NAME  SOURCE="trento">Num. Methods</SHORT_NAME>
+<DESCRIPTION>
+>From the earliest days of the discipline, numerical methods and the techniques of
+scientific computing have constituted a major area of computer science research. As
+computers increase in their problem-solving power, this area like much of the
+discipline has grown in both breadth and importance. At the end of the millennium,
+scientific computing stands as an intellectual discipline in its own right, closely related to
+but nonetheless distinct from computer science.
+Although courses in numerical methods and scientific computing are extremely valuable
+components of an undergraduate program in computer science, the CC2001 Task Force
+believes that none of the topics in this area represent core knowledge. >From our surveys
+of curricula and interaction with the computer science education community, we are
+convinced no consensus exists that this material is essential for all CS undergraduates. It
+remains a vital part of the discipline, but need not be a part of every program.
+For those who choose to pursue it, this area offers exposure to many valuable ideas and
+techniques, including precision of numerical representation, error analysis, numerical
+techniques, parallel architectures and algorithms, modeling and simulation, and scientific
+visualization. At the same time, students who take courses in this area have an
+opportunity to apply these techniques in a wide range of application areas, such as the
+following
+- Molecular dynamics
+- Fluid dynamics
+- Celestial mechanics
+- Economic forecasting
+- Optimization problems
+- Structural analysis of materials
+- Bioinformatics
+- Computational biology
+- Geologic modeling
+- Computerized tomography
+Each of the units in this area corresponds to a full-semester course at most institutions.
+The level of specification of the topic descriptions and the learning objectives is therefore
+different from that used in other areas in which the individual units typically require
+smaller blocks of time.
+</DESCRIPTION>
+<UNITS>
+<UNIT ID="CN1" TYPE="ELECTIVE"><UNIT_NAME>Numerical analysis</UNIT_NAME><SHORT_NAME  SOURCE="trento">Specialized Systems</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Floating-point arithmetic</TOPIC>
+<TOPIC>Error, stability, convergence</TOPIC>
+<TOPIC>Taylor's series</TOPIC>
+<TOPIC>Iterative solutions for finding roots (Newton's Method)</TOPIC>
+<TOPIC>Curve fitting  function approximation</TOPIC>
+<TOPIC>Numerical differentiation and integration (Simpson's Rule)</TOPIC>
+<TOPIC>Explicit and implicit methods</TOPIC>
+<TOPIC>Differential equations (Euler's Method)</TOPIC>
+<TOPIC>Linear algebra</TOPIC>
+<TOPIC>Finite differences</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Compare and contrast the numerical analysis techniques presented in this unit.</OBJECTIVE>
+<OBJECTIVE>Define error, stability, machine precision concepts and the inexactness of  computational approximations.</OBJECTIVE>
+<OBJECTIVE>Identify the SOURCEs of inexactness in computational approximations.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug programs that implement numerical methods.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="CN2" TYPE="ELECTIVE"><UNIT_NAME>Operations research</UNIT_NAME><SHORT_NAME  SOURCE="trento">O.R.</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Linear programming</TOPIC>
+<TOPIC>Integer programming</TOPIC>
+<TOPIC>The Simplex method</TOPIC>
+<TOPIC>Probabilistic modeling</TOPIC>
+<TOPIC>Queueing theory</TOPIC>
+<TOPIC>Petri nets</TOPIC>
+<TOPIC>Markov models and chains</TOPIC>
+<TOPIC>Optimization</TOPIC>
+<TOPIC>Network analysis and routing algorithms</TOPIC>
+<TOPIC>Prediction and estimation</TOPIC>
+<TOPIC>Decision analysis</TOPIC>
+<TOPIC>Forecasting</TOPIC>
+<TOPIC>Risk management</TOPIC>
+<TOPIC>Econometrics, microeconomics</TOPIC>
+<TOPIC>Sensitivity analysis</TOPIC>
+<TOPIC>Dynamic programming</TOPIC>
+<TOPIC>Sample applications</TOPIC>
+<TOPIC>Software tools</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Apply the fundamental techniques of operations research.</OBJECTIVE>
+<OBJECTIVE>Describe several established techniques for prediction and estimation.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug application programs to solve problems in the domain  of operations research.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="CN3" TYPE="ELECTIVE"><UNIT_NAME>Modeling and simulation</UNIT_NAME><SHORT_NAME  SOURCE="trento">Modeling</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Random numbers</TOPIC>
+<TOPIC>Pseudorandom number generation and testing</TOPIC>
+<TOPIC>Monte Carlo methods</TOPIC>
+<TOPIC>Introduction to distribution functions</TOPIC>
+<TOPIC>Simulation modeling</TOPIC>
+<TOPIC>Discrete-event simulation</TOPIC>
+<TOPIC>Continuous simulation</TOPIC>
+<TOPIC>Verification and validation of simulation models</TOPIC>
+<TOPIC>Input analysis</TOPIC>
+<TOPIC>Output analysis</TOPIC>
+<TOPIC>Queueing theory models</TOPIC>
+<TOPIC>Sample applications</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Discuss the fundamental concepts of computer simulation.</OBJECTIVE>
+<OBJECTIVE>Evaluate models for computer simulation.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast methods for random number generation.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug simulation programs.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+<UNIT ID="CN4" TYPE="ELECTIVE"><UNIT_NAME>High-performance computing</UNIT_NAME><SHORT_NAME  SOURCE="trento">Hi-Performance</SHORT_NAME>
+<TIME/>
+<TOPICS>
+<TOPIC>Introduction to high-performance computing</TOPIC>
+<TOPIC>History and importance of computational science</TOPIC>
+<TOPIC>Overview of application areas</TOPIC>
+<TOPIC>Review of required skills</TOPIC>
+<TOPIC>High-performance computing</TOPIC>
+<TOPIC>Processor architectures</TOPIC>
+<TOPIC>Memory systems for high performance</TOPIC>
+<TOPIC>Input/output devices</TOPIC>
+<TOPIC>Pipelining</TOPIC>
+<TOPIC>Parallel languages and architectures</TOPIC>
+<TOPIC>Scientific visualization</TOPIC>
+<TOPIC>Presentation of results</TOPIC>
+<TOPIC>Data formats</TOPIC>
+<TOPIC>Visualization tools and packages</TOPIC>
+<TOPIC>Sample problems</TOPIC>
+<TOPIC>Ocean and atmosphere models</TOPIC>
+<TOPIC>Seismic wave propagation</TOPIC>
+<TOPIC>N-body systems (the Barnes-Hut algorithm)</TOPIC>
+<TOPIC>Chemical reactions</TOPIC>
+<TOPIC>Phase transitions</TOPIC>
+<TOPIC>Fluid flow</TOPIC>
+</TOPICS>
+<LEARNING_OBJECTIVES>
+<OBJECTIVE>Recognize problem areas where computational modeling enhances current research  methods.</OBJECTIVE>
+<OBJECTIVE>Compare and contrast architectures for scientific and parallel computing, recognizing  the strengths and weaknesses of each.</OBJECTIVE>
+<OBJECTIVE>Implement simple performance measurements for high-performance systems.</OBJECTIVE>
+<OBJECTIVE>Design, code, test, and debug programs using techniques of numerical analysis,  computer simulation, and scientific visualization.
+</OBJECTIVE>
+</LEARNING_OBJECTIVES>
+</UNIT>
+</UNITS></AREA>
+</TAXONOMY>
